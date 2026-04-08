@@ -1,0 +1,30 @@
+[project]
+name = "pdf2md"
+version = "0.1.0"
+description = "Convert PDF documents to Markdown using pluggable converter backends"
+requires-python = ">=3.11"
+dependencies = [
+    "docling>=2.84.0",
+    "rapidocr>=3.7.0",
+    "onnxruntime>=1.24.0",
+    "opencv-python-headless>=4.6.0",
+]
+
+# Prevent opencv-python (non-headless) from being installed — it conflicts
+# with opencv-python-headless and breaks cv2.setNumThreads
+[tool.uv.override-dependencies]
+opencv-python = []
+
+[project.optional-dependencies]
+easyocr = [
+    "easyocr>=1.7.2",
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+torchvision = { index = "pytorch-cpu" }

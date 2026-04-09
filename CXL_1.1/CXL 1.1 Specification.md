@@ -1,7 +1,6 @@
-<!-- pdf2md: post-processed -->
-Logo
+![Compute Express Link (CXL) Logo][image_001]
 
-![Logo][img001]
+[image_001]: figures/image_001.png "Compute Express Link (CXL) Logo"
 
 ## Compute Express Link TM  (CXL TM )
 
@@ -344,125 +343,125 @@ NOTICE TO USERS: THE UNIQUE VALUE THAT IS PROVIDED IN THIS CXL SPECIFICATION IS 
 
 | Figure | Title | PDF Page |
 |--------|-------|----------|
-| Figure 1 | Conceptual Diagram of Accelerator Attached to Processor via CXL | 16 |
-| Figure 2 | CPU Flex Bus Port Example | 17 |
-| Figure 3 | Flex Bus Usage Model Example| 18 |
-| Figure 4 | Remote Far Memory Usage Model Example | 18 |
-| Figure 5 | Conceptual Diagram of Flex Bus Layering | 20 |
-| Figure 6 | CXL Device Types | 23 |
-| Figure 7 | Type 1 - Device with Cache | 24 |
-| Figure 8 | Type 2 Device - Device with Memory | 24 |
-| Figure 9 | Type 2 Device - Host Bias | 26 |
-| Figure 10 | Type 2 Device - Device Bias | 26 |
-| Figure 11 | Type 3 - Memory Expander | 28 |
-| Figure 12 | Flex Bus Layers -- CXL.io Transaction Layer Highlighted | 30 |
-| Figure 13 | CXL Power Management Messages Packet Format | 31 |
-| Figure 14 | Power Management Credits and Initialization | 34 |
-| Figure 15 | ATS 64-bit Request with CXL Indication| |
-| Figure 16 | ATS Translation Completion Data Entry with CXL indication | 36 |
-| Figure 17 | CXL.cache Channels | 37 |
-| Figure 18 | CXL.cache Read Behavior | 43 |
-| Figure 19 | CXL.cache Read0 Behavior | 44 |
-| Figure 20 | CXL.cache Device to Host Write Behavior | 45 |
-| Figure 21 | CXL.cache WrInv Transaction | 46 |
-| Figure 22 | WOWrInv/F with FastGO/ExtCmp | 47 |
-| Figure 23 | CXL.cache Read0-Write Semantics | 48 |
-| Figure 24 | CXL.cache Snoop Behavior | 55 |
-| Figure 25 | Legend | 68 |
-| Figure 26 | Example Cacheable Read from Host | 68 |
-| Figure 27 | Example Read for Ownership from Host | 69 |
-| Figure 28 | Example Non Cacheable Read from Host | 70 |
-| Figure 29 | Example Ownership Request from Host - No Data Required | 70 |
-| Figure 30 | Example Flush from Host | 71 |
-| Figure 31 | Example Weakly Ordered Write from Host | 71 |
-| Figure 32 | Example Strongly Ordered Write from Host with Invalid Host Caches | 72 |
-| Figure 33 | Example Strongly Ordered Write from Host with Valid Caches | 72 |
-| Figure 34 | Example Device Read to Device-Attached Memory | 73 |
-| Figure 35 | Example Device Write to Device-Attached Memory in Host Bias | 74 |
-| Figure 36 | Example Device Write to Device-Attached Memory | 75 |
-| Figure 37 | Example Host to Device Bias Flip | 76 |
-| Figure 38 | Read from Host | 77 |
-| Figure 39 | Write from Host | 77 |
-| Figure 40 | Flex Bus Layers -- CXL.io Link Layer Highlighted | 79 |
-| Figure 41 | Flex Bus Layers -- CXL.cache + CXL.mem Link Layer Highlighted | 81 |
-| Figure 42 | CXL.cache/.mem Protocol Flit Overview | 82 |
-| Figure 43 | CXL.cache/.mem All Data Flit Overview | 82 |
-| Figure 44 | Example of a Protocol Flit from device to Host | 83 |
-| Figure 45 | H0 - H2D Req + H2D Resp | 87 |
-| Figure 46 | H1 - H2D Data Header + H2D Resp + H2D Resp | 88 |
-| Figure 47 | H2 - H2D Req + H2D Data Header | 88 |
-| Figure 48 | H3 - 4 H2D Data Header | 89 |
-| Figure 49 | H4 - M2S RwD Header | 89 |
-| Figure 50 | H5 - M2S Req | 90 |
-| Figure 51 | G0 - H2D/M2S Data | 90 |
-| Figure 52 | G0 - M2S Byte Enable | 91 |
-| Figure 53 | G1 - 4 H2D Resp | 91 |
-| Figure 54 | G2 - H2D Req + H2D Data Header + H2D Resp | 92 |
-| Figure 55 | G3 - 4 H2D Data Header + H2D Resp | 92 |
-| Figure 56 | G4 - M2S Req + H2D Data Header | 93 |
-| Figure 57 | G5 - M2S RwD Header + H2D Resp | 93 |
-| Figure 58 | H0 - D2H Data Header + 2 D2H Resp + S2M NDR | 94 |
-| Figure 59 | H1 - D2H Req + D2H Data Header | 94 |
-| Figure 60 | H2 - 4 D2H Data Header + D2H Resp | 95 |
-| Figure 61 | H3 - S2M DRS Header + S2M NDR | 95 |
-| Figure 62 | H4 - 2 S2M NDR | 96 |
-| Figure 63 | H5 - 2 S2M DRS | 96 |
-| Figure 64 | G0 - D2H Data | 97 |
-| Figure 65 | G0 - D2H/S2M Byte Enable | 97 |
-| Figure 66 | G1 - D2H Req + 2 D2H Resp | 98 |
-| Figure 67 | G2 - D2H Req + D2H Data Header + D2H Resp | 98 |
-| Figure 68 | G3 - 4 D2H Data Header | 99 |
-| Figure 69 | G4 - S2M DRS Header + 2 S2M NDR | 99 |
-| Figure 70 | G5 - 3 S2M NDR | 100 |
-| Figure 71 | G6 - 3 S2M DRS | 100 |
-| Figure 72 | LLCRD Flit Format (Only Slot 0 is Valid. Others are Reserved) | 104 |
-| Figure 73 | Retry Flit Format (Only Slot 0 is Valid. Others are Reserved) | 104 |
-| Figure 74 | Init Flit Format (Only Slot 0 is Valid. Others are Reserved) | 105 |
-| Figure 75 | Retry Buffer and Related Pointers | 109 |
-| Figure 76 | CXL.cache/mem Replay Diagram | 114 |
-| Figure 77 | CRC Data Mask for 527 bit Flit | 116 |
-| Figure 78 | Flex Bus Layers -- CXL ARB/MUX Highlighted | 117 |
-| Figure 79 | Entry to Active Protocol Exchange | 121 |
-| Figure 80 | Status Synchronization | 121 |
-| Figure 81 | CXL Entry to Active Flow | 122 |
-| Figure 82 | CXL Entry to PM State | 123 |
-| Figure 83 | CXL Recovery Exit Flow | 124 |
-| Figure 84 | CXL Exit from PM State | 125 |
-| Figure 85 | CXL Recovery Error Flow | 126 |
-| Figure 86 | ARB/MUX Link Management Packet Format | 127 |
-| Figure 87 | Flex Bus Layers -- Physical Layer Highlighted | 129 |
-| Figure 88 | Flex Bus x16 Packet Layout | 132 |
-| Figure 89 | Flex Bus x16 Protocol Interleaving Example | 133 |
-| Figure 90 | Flex Bus x8 Packet Layout | 134 |
-| Figure 91 | Flex Bus x8 Protocol Interleaving Example | 135 |
-| Figure 92 | Flex Bus x4 Packet Layout | 136 |
-| Figure 93 | CXL.io TLP Ending on Flit Boundary Example | 137 |
-| Figure 94 | Flex Bus Mode Negotiation During Link Training (Sample Flow) | 142 |
-| Figure 95 | PCIe DVSEC for Flex Bus Device | 146 |
-| Figure 96 | CXL Memory Mapped Register Regions | 152 |
-| Figure 97 | CXL Downstream Port RCRB | 153 |
-| Figure 98 | CXL Upstream Port RCRB | 155 |
-| Figure 99 | PCIe DVSEC for Flex Bus Port | 156 |
-| Figure 100 | CXL Device Warm Reset Entry Flow | 170 |
-| Figure 101 | CXL Device Sleep State Entry Flow | 172 |
-| Figure 102 | View | 173 |
-| Figure 103 | PCIe Software One CPU Connected to One Accelerator Links | 177 |
-| Figure 105 | Via Two Flex Bus Two CPUs Connected to One Accelerator Via Two Flex Bus Links | 178 |
-| Figure 106 | PkgC Entry Flows | 183 |
-| Figure 107 | PkgC Exit Flows - Triggered by device access to system memory | 184 |
-| Figure 109 | CXL Link PM Phase 1 | 186 |
-| Figure 111 | CXL PM Phase 3 | 189 |
-| Figure 112 | Electrical Idle | 189 |
-| Figure 113 | ASPM L1 Entry Phase 1 | 191 |
-| Figure 114 | CXL Error Handling | 195 |
-| Figure 115 | Standard x16 PCIe Connector PIN List - For Reference Purposes Only | 201 |
-| Figure 116 | Example Test Topology | 204 |
-| Figure 117 | Representation of False Sharing Between Cores (on Host) and CXL Devices | 205 |
-| Figure 118 |  of Algorithm 1a | 206 |
-| Figure 119 |  of Algorithm 1b | 207 |
-| Figure 120 | Execute Phase for Algorithm 2 | 208 |
-| Figure 121 | PCIe DVSEC for Test Capability | 239 |
-| Figure 122 | Profile D - Giant Cache Model | 250 |
+| [Figure 1](#figure-1-conceptual-diagram-of-accelerator-attached-to-processor-via-cxl) | [Conceptual Diagram of Accelerator Attached to Processor via CXL](#figure-1-conceptual-diagram-of-accelerator-attached-to-processor-via-cxl) | 16 |
+| [Figure 2](#figure-2-cpu-flex-bus-port-example) | [CPU Flex Bus Port Example](#figure-2-cpu-flex-bus-port-example) | 17 |
+| [Figure 3](#figure-3-flex-bus-usage-model-examples) | [Flex Bus Usage Model Example](#figure-3-flex-bus-usage-model-examples) | 18 |
+| [Figure 4](#figure-4-remote-far-memory-usage-model-example) | [Remote Far Memory Usage Model Example](#figure-4-remote-far-memory-usage-model-example) | 18 |
+| [Figure 5](#figure-5-conceptual-diagram-of-flex-bus-layering) | [Conceptual Diagram of Flex Bus Layering](#figure-5-conceptual-diagram-of-flex-bus-layering) | 20 |
+| [Figure 6](#figure-6-cxl-device-types) | [CXL Device Types](#figure-6-cxl-device-types) | 23 |
+| [Figure 7](#figure-7-type-1---device-with-cache) | [Type 1 - Device with Cache](#figure-7-type-1---device-with-cache) | 24 |
+| [Figure 8](#figure-8-type-2-device---device-with-memory) | [Type 2 Device - Device with Memory](#figure-8-type-2-device---device-with-memory) | 24 |
+| [Figure 9](#figure-9-type-2-device---host-bias) | [Type 2 Device - Host Bias](#figure-9-type-2-device---host-bias) | 26 |
+| [Figure 10](#figure-10-type-2-device---device-bias) | [Type 2 Device - Device Bias](#figure-10-type-2-device---device-bias) | 26 |
+| [Figure 11](#figure-11-type-3---memory-expander) | [Type 3 - Memory Expander](#figure-11-type-3---memory-expander) | 28 |
+| [Figure 12](#figure-12-flex-bus-layers----cxlio-transaction-layer-highlighted) | [Flex Bus Layers -- CXL.io Transaction Layer Highlighted](#figure-12-flex-bus-layers----cxlio-transaction-layer-highlighted) | 30 |
+| [Figure 13](#figure-13-cxl-power-management-messages-packet-format) | [CXL Power Management Messages Packet Format](#figure-13-cxl-power-management-messages-packet-format) | 31 |
+| [Figure 14](#figure-14-power-management-credits-and-initialization) | [Power Management Credits and Initialization](#figure-14-power-management-credits-and-initialization) | 34 |
+| [Figure 15](#figure-15-ats-64-bit-request-with-cxl-indication) | [ATS 64-bit Request with CXL Indication](#figure-15-ats-64-bit-request-with-cxl-indication) |  |
+| [Figure 16](#figure-16-ats-translation-completion-data-entry-with-cxl-indication) | [ATS Translation Completion Data Entry with CXL indication](#figure-16-ats-translation-completion-data-entry-with-cxl-indication) | 36 |
+| [Figure 17](#figure-17-cxlcache-channels) | [CXL.cache Channels](#figure-17-cxlcache-channels) | 37 |
+| [Figure 18](#figure-18-cxlcache-read-behavior) | [CXL.cache Read Behavior](#figure-18-cxlcache-read-behavior) | 43 |
+| [Figure 19](#figure-19-cxlcache-read0-behavior) | [CXL.cache Read0 Behavior](#figure-19-cxlcache-read0-behavior) | 44 |
+| [Figure 20](#figure-20-cxlcache-device-to-host-write-behavior) | [CXL.cache Device to Host Write Behavior](#figure-20-cxlcache-device-to-host-write-behavior) | 45 |
+| [Figure 21](#figure-21-cxlcache-wrinv-transaction) | [CXL.cache WrInv Transaction](#figure-21-cxlcache-wrinv-transaction) | 46 |
+| [Figure 22](#figure-22-wowrinvf-with-fastgoextcmp) | [WOWrInv/F with FastGO/ExtCmp](#figure-22-wowrinvf-with-fastgoextcmp) | 47 |
+| [Figure 23](#figure-23-cxlcache-read0-write-semantics) | [CXL.cache Read0-Write Semantics](#figure-23-cxlcache-read0-write-semantics) | 48 |
+| [Figure 24](#figure-24-cxlcache-snoop-behavior) | [CXL.cache Snoop Behavior](#figure-24-cxlcache-snoop-behavior) | 55 |
+| [Figure 25](#figure-25-legend) | [Legend](#figure-25-legend) | 68 |
+| [Figure 26](#figure-26-example-cacheable-read-from-host) | [Example Cacheable Read from Host](#figure-26-example-cacheable-read-from-host) | 68 |
+| [Figure 27](#figure-27-example-read-for-ownership-from-host) | [Example Read for Ownership from Host](#figure-27-example-read-for-ownership-from-host) | 69 |
+| [Figure 28](#figure-28-example-non-cacheable-read-from-host) | [Example Non Cacheable Read from Host](#figure-28-example-non-cacheable-read-from-host) | 70 |
+| [Figure 29](#figure-29-example-ownership-request-from-host---no-data-required) | [Example Ownership Request from Host - No Data Required](#figure-29-example-ownership-request-from-host---no-data-required) | 70 |
+| [Figure 30](#figure-30-example-flush-from-host) | [Example Flush from Host](#figure-30-example-flush-from-host) | 71 |
+| [Figure 31](#figure-31-example-weakly-ordered-write-from-host) | [Example Weakly Ordered Write from Host](#figure-31-example-weakly-ordered-write-from-host) | 71 |
+| [Figure 32](#figure-32-example-strongly-ordered-write-from-host-with-invalid-host-caches) | [Example Strongly Ordered Write from Host with Invalid Host Caches](#figure-32-example-strongly-ordered-write-from-host-with-invalid-host-caches) | 72 |
+| [Figure 33](#figure-33-example-strongly-ordered-write-from-host-with-valid-caches) | [Example Strongly Ordered Write from Host with Valid Caches](#figure-33-example-strongly-ordered-write-from-host-with-valid-caches) | 72 |
+| [Figure 34](#figure-34-example-device-read-to-device-attached-memory) | [Example Device Read to Device-Attached Memory](#figure-34-example-device-read-to-device-attached-memory) | 73 |
+| [Figure 35](#figure-35-example-device-write-to-device-attached-memory-in-host-bias) | [Example Device Write to Device-Attached Memory in Host Bias](#figure-35-example-device-write-to-device-attached-memory-in-host-bias) | 74 |
+| [Figure 36](#figure-36-example-device-write-to-device-attached-memory) | [Example Device Write to Device-Attached Memory](#figure-36-example-device-write-to-device-attached-memory) | 75 |
+| [Figure 37](#figure-37-example-host-to-device-bias-flip) | [Example Host to Device Bias Flip](#figure-37-example-host-to-device-bias-flip) | 76 |
+| [Figure 38](#figure-38-read-from-host) | [Read from Host](#figure-38-read-from-host) | 77 |
+| [Figure 39](#figure-39-write-from-host) | [Write from Host](#figure-39-write-from-host) | 77 |
+| [Figure 40](#figure-40-flex-bus-layers----cxlio-link-layer-highlighted) | [Flex Bus Layers -- CXL.io Link Layer Highlighted](#figure-40-flex-bus-layers----cxlio-link-layer-highlighted) | 79 |
+| [Figure 41](#figure-41-flex-bus-layers----cxlcache-cxlmem-link-layer-highlighted) | [Flex Bus Layers -- CXL.cache + CXL.mem Link Layer Highlighted](#figure-41-flex-bus-layers----cxlcache-cxlmem-link-layer-highlighted) | 81 |
+| [Figure 42](#figure-42-cxlcachemem-protocol-flit-overview) | [CXL.cache/.mem Protocol Flit Overview](#figure-42-cxlcachemem-protocol-flit-overview) | 82 |
+| [Figure 43](#figure-43-cxlcachemem-all-data-flit-overview) | [CXL.cache/.mem All Data Flit Overview](#figure-43-cxlcachemem-all-data-flit-overview) | 82 |
+| [Figure 44](#figure-44-example-of-a-protocol-flit-from-device-to-host) | [Example of a Protocol Flit from device to Host](#figure-44-example-of-a-protocol-flit-from-device-to-host) | 83 |
+| [Figure 45](#figure-45-h0---h2d-req-h2d-resp) | [H0 - H2D Req + H2D Resp](#figure-45-h0---h2d-req-h2d-resp) | 87 |
+| [Figure 46](#figure-46-h1---h2d-data-header-h2d-resp-h2d-resp) | [H1 - H2D Data Header + H2D Resp + H2D Resp](#figure-46-h1---h2d-data-header-h2d-resp-h2d-resp) | 88 |
+| [Figure 47](#figure-47-h2---h2d-req-h2d-data-header) | [H2 - H2D Req + H2D Data Header](#figure-47-h2---h2d-req-h2d-data-header) | 88 |
+| [Figure 48](#figure-48-h3---4-h2d-data-header) | [H3 - 4 H2D Data Header](#figure-48-h3---4-h2d-data-header) | 89 |
+| [Figure 49](#figure-49-h4---m2s-rwd-header) | [H4 - M2S RwD Header](#figure-49-h4---m2s-rwd-header) | 89 |
+| [Figure 50](#figure-50-h5---m2s-req) | [H5 - M2S Req](#figure-50-h5---m2s-req) | 90 |
+| [Figure 51](#figure-51-g0---h2dm2s-data) | [G0 - H2D/M2S Data](#figure-51-g0---h2dm2s-data) | 90 |
+| [Figure 52](#figure-52-g0---m2s-byte-enable) | [G0 - M2S Byte Enable](#figure-52-g0---m2s-byte-enable) | 91 |
+| [Figure 53](#figure-53-g1---4-h2d-resp) | [G1 - 4 H2D Resp](#figure-53-g1---4-h2d-resp) | 91 |
+| [Figure 54](#figure-54-g2---h2d-req-h2d-data-header-h2d-resp) | [G2 - H2D Req + H2D Data Header + H2D Resp](#figure-54-g2---h2d-req-h2d-data-header-h2d-resp) | 92 |
+| [Figure 55](#figure-55-g3---4-h2d-data-header-h2d-resp) | [G3 - 4 H2D Data Header + H2D Resp](#figure-55-g3---4-h2d-data-header-h2d-resp) | 92 |
+| [Figure 56](#figure-56-g4---m2s-req-h2d-data-header) | [G4 - M2S Req + H2D Data Header](#figure-56-g4---m2s-req-h2d-data-header) | 93 |
+| [Figure 57](#figure-57-g5---m2s-rwd-header-h2d-resp) | [G5 - M2S RwD Header + H2D Resp](#figure-57-g5---m2s-rwd-header-h2d-resp) | 93 |
+| [Figure 58](#figure-58-h0---d2h-data-header-2-d2h-resp-s2m-ndr) | [H0 - D2H Data Header + 2 D2H Resp + S2M NDR](#figure-58-h0---d2h-data-header-2-d2h-resp-s2m-ndr) | 94 |
+| [Figure 59](#figure-59-h1---d2h-req-d2h-data-header) | [H1 - D2H Req + D2H Data Header](#figure-59-h1---d2h-req-d2h-data-header) | 94 |
+| [Figure 60](#figure-60-h2---4-d2h-data-header-d2h-resp) | [H2 - 4 D2H Data Header + D2H Resp](#figure-60-h2---4-d2h-data-header-d2h-resp) | 95 |
+| [Figure 61](#figure-61-h3---s2m-drs-header-s2m-ndr) | [H3 - S2M DRS Header + S2M NDR](#figure-61-h3---s2m-drs-header-s2m-ndr) | 95 |
+| [Figure 62](#figure-62-h4---2-s2m-ndr) | [H4 - 2 S2M NDR](#figure-62-h4---2-s2m-ndr) | 96 |
+| [Figure 63](#figure-63-h5---2-s2m-drs) | [H5 - 2 S2M DRS](#figure-63-h5---2-s2m-drs) | 96 |
+| [Figure 64](#figure-64-g0---d2h-data) | [G0 - D2H Data](#figure-64-g0---d2h-data) | 97 |
+| [Figure 65](#figure-65-g0---d2hs2m-byte-enable) | [G0 - D2H/S2M Byte Enable](#figure-65-g0---d2hs2m-byte-enable) | 97 |
+| [Figure 66](#figure-66-g1---d2h-req-2-d2h-resp) | [G1 - D2H Req + 2 D2H Resp](#figure-66-g1---d2h-req-2-d2h-resp) | 98 |
+| [Figure 67](#figure-67-g2---d2h-req-d2h-data-header-d2h-resp) | [G2 - D2H Req + D2H Data Header + D2H Resp](#figure-67-g2---d2h-req-d2h-data-header-d2h-resp) | 98 |
+| [Figure 68](#figure-68-g3---4-d2h-data-header) | [G3 - 4 D2H Data Header](#figure-68-g3---4-d2h-data-header) | 99 |
+| [Figure 69](#figure-69-g4---s2m-drs-header-2-s2m-ndr) | [G4 - S2M DRS Header + 2 S2M NDR](#figure-69-g4---s2m-drs-header-2-s2m-ndr) | 99 |
+| [Figure 70](#figure-70-g5---3-s2m-ndr) | [G5 - 3 S2M NDR](#figure-70-g5---3-s2m-ndr) | 100 |
+| [Figure 71](#figure-71-g6---3-s2m-drs) | [G6 - 3 S2M DRS](#figure-71-g6---3-s2m-drs) | 100 |
+| [Figure 72](#figure-72-llcrd-flit-format-only-slot-0-is-valid-others-are-reserved) | [LLCRD Flit Format (Only Slot 0 is Valid. Others are Reserved)](#figure-72-llcrd-flit-format-only-slot-0-is-valid-others-are-reserved) | 104 |
+| [Figure 73](#figure-73-retry-flit-format-only-slot-0-is-valid-others-are-reserved) | [Retry Flit Format (Only Slot 0 is Valid. Others are Reserved)](#figure-73-retry-flit-format-only-slot-0-is-valid-others-are-reserved) | 104 |
+| [Figure 74](#figure-74-init-flit-format-only-slot-0-is-valid-others-are-reserved) | [Init Flit Format (Only Slot 0 is Valid. Others are Reserved)](#figure-74-init-flit-format-only-slot-0-is-valid-others-are-reserved) | 105 |
+| [Figure 75](#figure-75-retry-buffer-and-related-pointers) | [Retry Buffer and Related Pointers](#figure-75-retry-buffer-and-related-pointers) | 109 |
+| [Figure 76](#figure-76-cxlcachemem-replay-diagram) | [CXL.cache/mem Replay Diagram](#figure-76-cxlcachemem-replay-diagram) | 114 |
+| [Figure 77](#figure-77-crc-data-mask-for-527-bit-flit) | [CRC Data Mask for 527 bit Flit](#figure-77-crc-data-mask-for-527-bit-flit) | 116 |
+| [Figure 78](#figure-78-flex-bus-layers----cxl-arbmux-highlighted) | [Flex Bus Layers -- CXL ARB/MUX Highlighted](#figure-78-flex-bus-layers----cxl-arbmux-highlighted) | 117 |
+| [Figure 79](#figure-79-entry-to-active-protocol-exchange) | [Entry to Active Protocol Exchange](#figure-79-entry-to-active-protocol-exchange) | 121 |
+| [Figure 80](#figure-80-status-synchronization) | [Status Synchronization](#figure-80-status-synchronization) | 121 |
+| [Figure 81](#figure-81-cxl-entry-to-active-flow) | [CXL Entry to Active Flow](#figure-81-cxl-entry-to-active-flow) | 122 |
+| [Figure 82](#figure-82-cxl-entry-to-pm-state) | [CXL Entry to PM State](#figure-82-cxl-entry-to-pm-state) | 123 |
+| [Figure 83](#figure-83-cxl-recovery-exit-flow) | [CXL Recovery Exit Flow](#figure-83-cxl-recovery-exit-flow) | 124 |
+| [Figure 84](#figure-84-cxl-exit-from-pm-state) | [CXL Exit from PM State](#figure-84-cxl-exit-from-pm-state) | 125 |
+| [Figure 85](#figure-85-cxl-recovery-error-flow) | [CXL Recovery Error Flow](#figure-85-cxl-recovery-error-flow) | 126 |
+| [Figure 86](#figure-86-arbmux-link-management-packet-format) | [ARB/MUX Link Management Packet Format](#figure-86-arbmux-link-management-packet-format) | 127 |
+| [Figure 87](#figure-87-flex-bus-layers----physical-layer-highlighted) | [Flex Bus Layers -- Physical Layer Highlighted](#figure-87-flex-bus-layers----physical-layer-highlighted) | 129 |
+| [Figure 88](#figure-88-flex-bus-x16-packet-layout) | [Flex Bus x16 Packet Layout](#figure-88-flex-bus-x16-packet-layout) | 132 |
+| [Figure 89](#figure-89-flex-bus-x16-protocol-interleaving-example) | [Flex Bus x16 Protocol Interleaving Example](#figure-89-flex-bus-x16-protocol-interleaving-example) | 133 |
+| [Figure 90](#figure-90-flex-bus-x8-packet-layout) | [Flex Bus x8 Packet Layout](#figure-90-flex-bus-x8-packet-layout) | 134 |
+| [Figure 91](#figure-91-flex-bus-x8-protocol-interleaving-example) | [Flex Bus x8 Protocol Interleaving Example](#figure-91-flex-bus-x8-protocol-interleaving-example) | 135 |
+| [Figure 92](#figure-92-flex-bus-x4-packet-layout) | [Flex Bus x4 Packet Layout](#figure-92-flex-bus-x4-packet-layout) | 136 |
+| [Figure 93](#figure-93-cxlio-tlp-ending-on-flit-boundary-example) | [CXL.io TLP Ending on Flit Boundary Example](#figure-93-cxlio-tlp-ending-on-flit-boundary-example) | 137 |
+| [Figure 94](#figure-94-flex-bus-mode-negotiation-during-link-training-sample-flow) | [Flex Bus Mode Negotiation During Link Training (Sample Flow)](#figure-94-flex-bus-mode-negotiation-during-link-training-sample-flow) | 142 |
+| [Figure 95](#figure-95-pcie-dvsec-for-flex-bus-device) | [PCIe DVSEC for Flex Bus Device](#figure-95-pcie-dvsec-for-flex-bus-device) | 146 |
+| [Figure 96](#figure-96-cxl-memory-mapped-register-regions) | [CXL Memory Mapped Register Regions](#figure-96-cxl-memory-mapped-register-regions) | 152 |
+| [Figure 97](#figure-97-cxl-downstream-port-rcrb) | [CXL Downstream Port RCRB](#figure-97-cxl-downstream-port-rcrb) | 153 |
+| [Figure 98](#figure-98-cxl-upstream-port-rcrb) | [CXL Upstream Port RCRB](#figure-98-cxl-upstream-port-rcrb) | 155 |
+| [Figure 99](#figure-99-pcie-dvsec-for-flex-bus-port) | [PCIe DVSEC for Flex Bus Port](#figure-99-pcie-dvsec-for-flex-bus-port) | 156 |
+| [Figure 100](#figure-100-cxl-device-warm-reset-entry-flow) | [CXL Device Warm Reset Entry Flow](#figure-100-cxl-device-warm-reset-entry-flow) | 170 |
+| [Figure 101](#figure-101-cxl-device-cold-reset-entry-flow) | [CXL Device Sleep State Entry Flow](#figure-101-cxl-device-cold-reset-entry-flow) | 172 |
+| [Figure 102](#figure-102-cxl-device-sleep-state-entry-flow) | [View](#figure-102-cxl-device-sleep-state-entry-flow) | 173 |
+| [Figure 103](#figure-103-pcie-software-view) | [PCIe Software One CPU Connected to One Accelerator Links](#figure-103-pcie-software-view) | 177 |
+| [Figure 105](#figure-105-two-cpus-connected-to-one-accelerator-via-two-flex-bus-links) | [Via Two Flex Bus Two CPUs Connected to One Accelerator Via Two Flex Bus Links](#figure-105-two-cpus-connected-to-one-accelerator-via-two-flex-bus-links) | 178 |
+| [Figure 106](#figure-106-pkgc-entry-flows) | [PkgC Entry Flows](#figure-106-pkgc-entry-flows) | 183 |
+| [Figure 107](#figure-107-pkgc-exit-flows---triggered-by-device-access-to-system-memory) | [PkgC Exit Flows - Triggered by device access to system memory](#figure-107-pkgc-exit-flows---triggered-by-device-access-to-system-memory) | 184 |
+| [Figure 109](#figure-109-cxl-link-pm-phase-1) | [CXL Link PM Phase 1](#figure-109-cxl-link-pm-phase-1) | 186 |
+| [Figure 111](#figure-111-cxl-pm-phase-3) | [CXL PM Phase 3](#figure-111-cxl-pm-phase-3) | 189 |
+| [Figure 112](#figure-112-electrical-idle) | [Electrical Idle](#figure-112-electrical-idle) | 189 |
+| [Figure 113](#figure-113-aspm-l1-entry-phase-1) | [ASPM L1 Entry Phase 1](#figure-113-aspm-l1-entry-phase-1) | 191 |
+| [Figure 114](#figure-114-cxl-error-handling) | [CXL Error Handling](#figure-114-cxl-error-handling) | 195 |
+| [Figure 115](#figure-115-standard-x16-pcie-connector-pin-list---for-reference-purpose-only) | [Standard x16 PCIe Connector PIN List - For Reference Purposes Only](#figure-115-standard-x16-pcie-connector-pin-list---for-reference-purpose-only) | 201 |
+| [Figure 116](#figure-116-example-test-topology) | [Example Test Topology](#figure-116-example-test-topology) | 204 |
+| [Figure 117](#figure-117-representation-of-false-sharing-between-cores-on-host-and-cxl-devices) | [Representation of False Sharing Between Cores (on Host) and CXL Devices](#figure-117-representation-of-false-sharing-between-cores-on-host-and-cxl-devices) | 205 |
+| [Figure 118](#figure-118-flow-chart-of-algorithm-1a) | [Flow Chart of Algorithm 1a](#figure-118-flow-chart-of-algorithm-1a) | 206 |
+| [Figure 119](#figure-119-flow-chart-of-algorithm-1b) | [Flow Chart of Algorithm 1b](#figure-119-flow-chart-of-algorithm-1b) | 207 |
+| [Figure 120](#figure-120-execute-phase-for-algorithm-2) | [Execute Phase for Algorithm 2](#figure-120-execute-phase-for-algorithm-2) | 208 |
+| [Figure 121](#figure-121-pcie-dvsec-for-test-capability) | [PCIe DVSEC for Test Capability](#figure-121-pcie-dvsec-for-test-capability) | 239 |
+| [Figure 122](#figure-122-profile-d---giant-cache-model) | [Profile D - Giant Cache Model](#figure-122-profile-d---giant-cache-model) | 250 |
 
 ### List of Tables
 
@@ -482,11 +481,11 @@ NOTICE TO USERS: THE UNIQUE VALUE THAT IS PROVIDED IN THIS CXL SPECIFICATION IS 
 | [Table 12](#table-12-rsp_pre-encodings) | [RSP_PRE Encodings](#table-12-rsp_pre-encodings) | 41 |
 | [Table 13](#table-13-cache-state-encoding-for-h2d-response) | [Cache State Encoding for H2D Response](#table-13-cache-state-encoding-for-h2d-response) | 41 |
 | [Table 14](#table-14-cxlcache-h2d-data-header-fields-sheet-2-of-2) | [CXL.cache - H2D Data Header Fields](#table-14-cxlcache-h2d-data-header-fields-sheet-2-of-2) | 41 |
-| Table 15 | CXL.cache. - Device to Host Requests | 48 |
-| Table 16 | D2H Request (targeting non-device-attached memory) supported H2D Responses | 52 |
-| Table 17 | D2H Request (Targeting Device-attached Memory) Supported Responses | 52 |
+| [Table 15](#table-15-cxlcache---device-to-host-requests) | [CXL.cache. - Device to Host Requests](#table-15-cxlcache---device-to-host-requests) | 48 |
+| [Table 16](#table-16-d2h-request-targeting-non-device-attached-memory-supported-h2d-responses) | [D2H Request (targeting non-device-attached memory) supported H2D Responses](#table-16-d2h-request-targeting-non-device-attached-memory-supported-h2d-responses) | 52 |
+| [Table 17](#table-17-d2h-request-targeting-device-attached-memory-supported-responses) | [D2H Request (Targeting Device-attached Memory) Supported Responses](#table-17-d2h-request-targeting-device-attached-memory-supported-responses) | 52 |
 | [Table 18](#table-18-d2h-response-encodings) | [D2H Response Encodings](#table-18-d2h-response-encodings) | 53 |
-| Table 19 | CXL.cache - Mapping of Host to Device Requests &amp; Responses | 55 |
+| [Table 19](#table-19-cxlcache---mapping-of-host-to-device-requests-amp-responses) | [CXL.cache - Mapping of Host to Device Requests &amp; Responses](#table-19-cxlcache---mapping-of-host-to-device-requests-amp-responses) | 55 |
 | [Table 20](#table-20-h2d-response-opcode-encodings) | [H2D Response Opcode Encodings](#table-20-h2d-response-opcode-encodings) | 56 |
 | [Table 21](#table-21-m2s-request-fields) | [M2S Request Fields](#table-21-m2s-request-fields) | 61 |
 | [Table 22](#table-22-m2s-req-memory-opcodes) | [M2S Req Memory Opcodes](#table-22-m2s-req-memory-opcodes) | 62 |
@@ -503,20 +502,20 @@ NOTICE TO USERS: THE UNIQUE VALUE THAT IS PROVIDED IN THIS CXL SPECIFICATION IS 
 | [Table 33](#table-33-s2m-drs-opcodes) | [S2M DRS Opcodes](#table-33-s2m-drs-opcodes) | 67 |
 | [Table 34](#table-34-cxlcachecxlmem-flit-header-definition) | [CXL.cache/CXL.mem Flit Header Definition](#table-34-cxlcachecxlmem-flit-header-definition) | 83 |
 | [Table 35](#table-35-flit-type-encoding) | [Flit Type Encoding](#table-35-flit-type-encoding) | 84 |
-| Table 36 | Legal values of Sz &amp; BE Fields | 84 |
-| Table 37 | CXL.cache/CXL.mem Credit Return Encodings | 85 |
+| [Table 36](#table-36-legal-values-of-sz-amp-be-fields) | [Legal values of Sz &amp; BE Fields](#table-36-legal-values-of-sz-amp-be-fields) | 84 |
+| [Table 37](#table-37-cxlcachecxlmem-credit-return-encodings) | [CXL.cache/CXL.mem Credit Return Encodings](#table-37-cxlcachecxlmem-credit-return-encodings) | 85 |
 | [Table 38](#table-38-slot-format-field-encoding-sheet-2-of-2) | [Slot Format Field Encoding](#table-38-slot-format-field-encoding-sheet-2-of-2) | 85 |
 | [Table 39](#table-39-h2dm2s-slot-formats) | [H2D/M2S Slot Formats](#table-39-h2dm2s-slot-formats) | 86 |
 | [Table 40](#table-40-d2hs2m-slot-formats-sheet-2-of-2) | [D2H/S2M Slot Formats](#table-40-d2hs2m-slot-formats-sheet-2-of-2) | 86 |
-| Table 41 | CXL.cache/CXL.mem Link Layer Control Types | 102 |
-| Table 42 | CXL.cache/CXL.mem Link Layer Control Details | 102 |
+| [Table 41](#table-41-cxlcachecxlmem-link-layer-control-types) | [CXL.cache/CXL.mem Link Layer Control Types](#table-41-cxlcachecxlmem-link-layer-control-types) | 102 |
+| [Table 42](#table-42-cxlcachecxlmem-link-layer-control-details-sheet-2-of-2) | [CXL.cache/CXL.mem Link Layer Control Details](#table-42-cxlcachecxlmem-link-layer-control-details-sheet-2-of-2) | 102 |
 | [Table 43](#table-43-control-flits-and-their-effect-on-sender-and-receiver-states) | [Control Flits and Their Effect on Sender and Receiver States](#table-43-control-flits-and-their-effect-on-sender-and-receiver-states) | 110 |
-| Table 44 | Local Retry State Transitions | 112 |
-| Table 45 | Remote Retry State Transition | 114 |
-| Table 46 | Virtual LSM States Maintained Per Link Layer Interface | 118 |
-| Table 47 | ARB/MUX Multiple Virtual LSM Resolution Table | 119 |
+| [Table 44](#table-44-local-retry-state-transitions-sheet-2-of-2) | [Local Retry State Transitions](#table-44-local-retry-state-transitions-sheet-2-of-2) | 112 |
+| [Table 45](#table-45-remote-retry-state-transition) | [Remote Retry State Transition](#table-45-remote-retry-state-transition) | 114 |
+| [Table 46](#table-46-virtual-lsm-states-maintained-per-link-layer-interface) | [Virtual LSM States Maintained Per Link Layer Interface](#table-46-virtual-lsm-states-maintained-per-link-layer-interface) | 118 |
+| [Table 47](#table-47-arbmux-multiple-virtual-lsm-resolution-table) | [ARB/MUX Multiple Virtual LSM Resolution Table](#table-47-arbmux-multiple-virtual-lsm-resolution-table) | 119 |
 | [Table 48](#table-48-arbmux-state-transition-table) | [ARB/MUX State Transition Table](#table-48-arbmux-state-transition-table) | 119 |
-| Table 49 | ALMP Byte 2 and Byte 3 Encoding | 127 |
+| [Table 49](#table-49-almp-byte-2-and-byte-3-encoding) | [ALMP Byte 2 and Byte 3 Encoding](#table-49-almp-byte-2-and-byte-3-encoding) | 127 |
 | [Table 50](#table-50-flex-buscxl-link-speeds-and-widths-for-normal-and-degraded-mode) | [Flex Bus.CXL Link Speeds and Widths for Normal and Degraded Mode](#table-50-flex-buscxl-link-speeds-and-widths-for-normal-and-degraded-mode) | 130 |
 | [Table 51](#table-51-flex-buscxl-protocol-ids-sheet-2-of-2) | [Flex Bus.CXL Protocol IDs](#table-51-flex-buscxl-protocol-ids-sheet-2-of-2) | 131 |
 | [Table 52](#table-52-protocol-id-framing-errors) | [Protocol ID Framing Errors](#table-52-protocol-id-framing-errors) | 138 |
@@ -524,24 +523,24 @@ NOTICE TO USERS: THE UNIQUE VALUE THAT IS PROVIDED IN THIS CXL SPECIFICATION IS 
 | [Table 54](#table-54-additional-information-on-symbols-8-9-of-modifed-ts1ts2-ordered-set) | [Additional Information on Symbols 8-9 of Modifed TS1/TS2 Ordered Set](#table-54-additional-information-on-symbols-8-9-of-modifed-ts1ts2-ordered-set) | 140 |
 | [Table 55](#table-55-additional-information-on-symbols-12-14-of-modified-ts1ts2-ordered-sets-sheet-1-of-2) | [Additional Information on Symbols 12-14 of Modified TS1/TS2 Ordered Sets](#table-55-additional-information-on-symbols-12-14-of-modified-ts1ts2-ordered-sets-sheet-1-of-2) | 140 |
 | [Table 56](#table-56-rules-of-enable-low-latency-mode-features) | [Rules of Enable Low Latency Mode Features](#table-56-rules-of-enable-low-latency-mode-features) | 144 |
-| Table 57 | Register Attributes | 145 |
-| Table 58 | PCI Express DVSEC Register Settings for Flex Bus Device | 146 |
+| [Table 57](#table-57-register-attributes) | [Register Attributes](#table-57-register-attributes) | 145 |
+| [Table 58](#table-58-pci-express-dvsec-register-settings-for-flex-bus-device) | [PCI Express DVSEC Register Settings for Flex Bus Device](#table-58-pci-express-dvsec-register-settings-for-flex-bus-device) | 146 |
 | [Table 59](#table-59-cxl-memory-mapped-registers-regions) | [CXL Memory Mapped Registers Regions](#table-59-cxl-memory-mapped-registers-regions) | 151 |
 | [Table 60](#table-60-cxl-downstream-port-supported-pcie-capabilities-and-extended-capabilities-sheet-1-of-2) | [CXL Downstream Port Supported PCIe Capabilities and Extended Capabilities](#table-60-cxl-downstream-port-supported-pcie-capabilities-and-extended-capabilities-sheet-1-of-2) | 153 |
 | [Table 61](#table-61-cxl-upstream-port-supported-pcie-capabilities-and-extended-capabilities) | [CXL Upstream Port Supported PCIe Capabilities and Extended Capabilities](#table-61-cxl-upstream-port-supported-pcie-capabilities-and-extended-capabilities) | 156 |
 | [Table 62](#table-62-pci-express-dvsec-header-registers-settings-for-flex-bus-port) | [PCI Express DVSEC Header Registers Settings for Flex Bus Port](#table-62-pci-express-dvsec-header-registers-settings-for-flex-bus-port) | 156 |
-| Table 63 | CXL Subsystem Component Register Ranges in MEMBAR0 | 158 |
-| Table 64 | CXL.cache and CXL.mem Architectural Registers | 158 |
+| [Table 63](#table-63-cxl-subsystem-component-register-ranges-in-membar0) | [CXL Subsystem Component Register Ranges in MEMBAR0](#table-63-cxl-subsystem-component-register-ranges-in-membar0) | 158 |
+| [Table 64](#table-64-cxlcache-and-cxlmem-architectural-registers) | [CXL.cache and CXL.mem Architectural Registers](#table-64-cxlcache-and-cxlmem-architectural-registers) | 158 |
 | [Table 65](#table-65-event-sequencing-for-reset-and-sx-flows) | [Event Sequencing for Reset and Sx Flows](#table-65-event-sequencing-for-reset-and-sx-flows) | 169 |
 | [Table 66](#table-66-interaction-between-cpu-cache-flush-instructions-and-cxlcache) | [Interaction Between CPU Cache Flush Instructions and CXL.cache](#table-66-interaction-between-cpu-cache-flush-instructions-and-cxlcache) | 176 |
-| Table 67 | Memory Decode rules in presence of one CPU/two Flex Bus links | 178 |
-| Table 68 | Memory Decode rules in presence of two CPU/two Flex Bus links | 179 |
-| Table 69 | Runtime-Control - CXL Versus PCIe Control Methodologies | 181 |
+| [Table 67](#table-67-memory-decode-rules-in-presence-of-one-cputwo-flex-bus-links) | [Memory Decode rules in presence of one CPU/two Flex Bus links](#table-67-memory-decode-rules-in-presence-of-one-cputwo-flex-bus-links) | 178 |
+| [Table 68](#table-68-memory-decode-rules-in-presence-of-two-cputwo-flex-bus-links) | [Memory Decode rules in presence of two CPU/two Flex Bus links](#table-68-memory-decode-rules-in-presence-of-two-cputwo-flex-bus-links) | 179 |
+| [Table 69](#table-69-runtime-control---cxl-versus-pcie-control-methodologies) | [Runtime-Control - CXL Versus PCIe Control Methodologies](#table-69-runtime-control---cxl-versus-pcie-control-methodologies) | 181 |
 | [Table 70](#table-70-cxl-ras-features) | [CXL RAS Features](#table-70-cxl-ras-features) | 194 |
 | [Table 71](#table-71-device-specific-error-reporting-and-nomenclature-guidelines) | [Device Specific Error Reporting and Nomenclature Guidelines](#table-71-device-specific-error-reporting-and-nomenclature-guidelines) | 196 |
-| Table 72 | Register 1: CXL.cache/CXL.mem LinkLayerErrorInjection | 230 |
-| Table 73 | Register 2: CXL.io LinkLayer Error injection | 232 |
-| Table 74 | Register 3: Flex Bus LogPHY Error injections | 232 |
+| [Table 72](#table-72-register-1-cxlcachecxlmem-linklayererrorinjection) | [Register 1: CXL.cache/CXL.mem LinkLayerErrorInjection](#table-72-register-1-cxlcachecxlmem-linklayererrorinjection) | 230 |
+| [Table 73](#table-73-register-2-cxlio-linklayer-error-injection) | [Register 2: CXL.io LinkLayer Error injection](#table-73-register-2-cxlio-linklayer-error-injection) | 232 |
+| [Table 74](#table-74-register-3-flex-bus-logphy-error-injections) | [Register 3: Flex Bus LogPHY Error injections](#table-74-register-3-flex-bus-logphy-error-injections) | 232 |
 | [Table 75](#table-75-dvsec-registers-sheet-2-of-2) | [DVSEC Registers](#table-75-dvsec-registers-sheet-2-of-2) | 239 |
 | [Table 76](#table-76-dvsec-cxl-test-lock-offset-0ah) | [DVSEC CXL Test Lock (offset 0Ah)](#table-76-dvsec-cxl-test-lock-offset-0ah) | 240 |
 | [Table 77](#table-77-dvsec-cxl-test-capability1-offset-0ch) | [DVSEC CXL Test Capability1 (offset 0Ch)](#table-77-dvsec-cxl-test-capability1-offset-0ch) | 240 |
@@ -554,11 +553,11 @@ NOTICE TO USERS: THE UNIQUE VALUE THAT IS PROVIDED IN THIS CXL SPECIFICATION IS 
 | [Table 84](#table-84-register-4-pattern-offset-18h) | [Register 4: Pattern (Offset 18h)](#table-84-register-4-pattern-offset-18h) | 242 |
 | [Table 85](#table-85-register-5-bytemask-offset-20h) | [Register 5: ByteMask (Offset 20h)](#table-85-register-5-bytemask-offset-20h) | 242 |
 | [Table 86](#table-86-register-6-patternconfiguration-offset-28h) | [Register 6: PatternConfiguration (Offset 28h)](#table-86-register-6-patternconfiguration-offset-28h) | 242 |
-| Table 87 | Register 7: AlgorithmConfiguration (Offset 30h) | 243 |
-| Table 88 | Register 8: DeviceErrorInjection (Offset 38h) | 244 |
+| [Table 87](#table-87-register-7-algorithmconfiguration-offset-30h) | [Register 7: AlgorithmConfiguration (Offset 30h)](#table-87-register-7-algorithmconfiguration-offset-30h) | 243 |
+| [Table 88](#table-88-register-8-deviceerrorinjection-offset-38h) | [Register 8: DeviceErrorInjection (Offset 38h)](#table-88-register-8-deviceerrorinjection-offset-38h) | 244 |
 | [Table 89](#table-89-register-9-errorlog1-offset-40h) | [Register 9: ErrorLog1 (Offset 40h)](#table-89-register-9-errorlog1-offset-40h) | 244 |
-| Table 90 | Register 10: ErrorLog2 (Offset 48h) | 245 |
-| Table 91 | Register 11: ErrorLog3 (Offset 50h) | 245 |
+| [Table 90](#table-90-register-10-errorlog2-offset-48h) | [Register 10: ErrorLog2 (Offset 48h)](#table-90-register-10-errorlog2-offset-48h) | 245 |
+| [Table 91](#table-91-register-11-errorlog3-offset-50h) | [Register 11: ErrorLog3 (Offset 50h)](#table-91-register-11-errorlog3-offset-50h) | 245 |
 | [Table 92](#table-92-register-12-eventctrl-offset-60h) | [Register 12: EventCtrl (Offset 60h)](#table-92-register-12-eventctrl-offset-60h) | 245 |
 | [Table 93](#table-93-register-13-eventcount-offset-68h) | [Register 13: EventCount (Offset 68h)](#table-93-register-13-eventcount-offset-68h) | 246 |
 | [Table 94](#table-94-accelerator-usage-taxonomy-sheet-2-of-2) | [Accelerator Usage Taxonomy](#table-94-accelerator-usage-taxonomy-sheet-2-of-2) | 247 |
@@ -569,8 +568,6 @@ NOTICE TO USERS: THE UNIQUE VALUE THAT IS PROVIDED IN THIS CXL SPECIFICATION IS 
 |------------|-------------|-------------|
 |        1   | Initial release. | March, 2019 |
 |        1.1 | Added Reserved and ALMP terminology definition to Terminology/Acronyms table and also alphabetized the entries. Completed update to CXL terminology (mostly figures); removed disclaimer re: old terminology. General typo fixes. Added missing figure caption in Transaction Layer chapter. Modified description of Deferrable Writes in [Section 3.1.6](#316-deferrable-writes) to be less restrictive. Added clarification in [Section 3.2.5.13](#32513-general-assumptions) that ordering between CXL.io traffic and CXL.cache traffic must be enforced by the device (e.g., between MSIs and D2H memory writes). Removed ExtCmp reference in ItoMWr & MemWr. Flit organization clarification: updated Figure 41 and added example with Figure 43. Fixed typo in Packing Rules MDH section with respect to H4. Clarified that Advanced Error Reporting (AER) is required for CXL. Clarification on data interleave rules for CXL.mem in [Section 3.3.6](#336-forward-progress-amp-ordering-rules). Updated [Table 48](#table-48-arbmux-state-transition-table), 'ARB/MUX State Transition Table' on page 119 to add missing transitions and to correct transition conditions. Updated [Section 5.1.1](#511-rules-for-virtual-lsm-state-transitions-across-link) to clarify rules for ALMP state change handshakes and to add rule around unexpected ALMPs. Updated [Section 5.2.1](#521-arbmux-bypass-feature) to clarify that ALMPs must be disabled when multiple protocols are not enabled. Updates to ARB/MUX flow diagrams. Fixed typos in the Physical Layer interleave example figures (LCRC at the end of the TLPs instead of IDLEs). Updated [Table 52](#table-52-protocol-id-framing-errors) to clarify protocol ID error detection and handling. Added [Section 6.6](#66-exit-from-recovery) to clarify behavior out of recovery. Increased the HDM size granularity from 1MB to 256MB (defined in the Flex Bus Device DVSEC in Control and Status Registers chapter). Updated Viral Status in the Flex Bus Device DVSEC to RWS (from RW). Corrected the RCRB BAR definition so fields are RW instead of RWO. Corrected typo in Flex Bus Port DVSEC size value. Added entry to Table 63 to clarify that upper 7K of the 64K MEMBAR0 region is reserved. Corrected [Table 65](#table-65-event-sequencing-for-reset-and-sx-flows) so the PME- Turn_Off/Ack handshake is used consistently as a warning for both PCIe and CXL mode. Update [Section 9.2.3](#923-pkgc-entry-flows) and [Section 9.2.4](#924-pkgc-exit-flows) to remove references to EA and L2. Updated [Section 11.2.2](#1122-cxl-device-error-handling) to clarify device handling of non-function errors. Added additional latency recommendations to cover CXL.mem flows to [Section 13.0](#130-performance-considerations); also changed wording to clarify that the latency guidelines are recommendations and not requirements. Added compliance test chapter. | June, 2019  |
-
-
 
 ## 1.0 Introduction
 
@@ -627,11 +624,11 @@ Please refer to the PCI Express Specification for additional terminology and acr
 
 CXL is a dynamic multi-protocol technology designed to support a vast spectrum of accelerators. CXL provides a rich set of protocols that include I/O semantics similar to PCIe (i.e., CXL.io), caching protocol semantics (i.e., CXL.cache), and memory access semantics (i.e., CXL.mem) over a discrete or on-package link. Depending on the particular accelerator usage model, all of the protocols or only a subset of the protocols may be enabled; however, CXL.io is always required for discovery and enumeration, error reporting, and host physical address (HPA) lookup. A key benefit of CXL is that it provides a low-latency, high-bandwidth path for an accelerator to access the system. The figure below is a conceptual diagram showing a device attached to a Host processor via CXL. Note that the CXL link is shown as a direct-attached CPU link and cannot reside behind a PCIe switch (although this does not preclude the concept of a potential CXL switch in the future).
 
+##### Figure 1. Conceptual Diagram of Accelerator Attached to Processor via CXL
 
+![A block diagram showing a Compute Express Link (CXL) connecting an Accelerator to a Host Processor. The Accelerator includes CXL.io, CXL.cache, and CXL.mem protocols connecting to Accelerator Logic, with optional Accelerator Memory. The Host Processor side shows the three protocols connecting to Coherence/Cache Logic (for IA Cores) and PCIe Logic (for I/O Devices), with attached Host Memory.][figure_001]
 
-Figure 1. Conceptual Diagram of Accelerator Attached to Processor via CXL
-
-![Figure 1: Conceptual Diagram of Accelerator Attached to Processor via CXL][fig001]
+[figure_001]: figures/figure_001.png "Figure 1: Conceptual Diagram of Accelerator Attached to Processor via CXL"
 
 #### 1.4.2 Flex Bus
 
@@ -639,25 +636,25 @@ A Flex Bus port allows designs to choose between providing native PCIe protocol 
 
 Figure 2 provides a high-level diagram of a Flex Bus port implementation, illustrating both a slot implementation and a custom implementation where the device is soldered down on the motherboard. The slot implementation can accommodate either a Flex Bus.CXL card or a PCIe card. One or two optional retimers can be inserted between the CPU and the device to extend the distance. As illustrated in [Figure 3](#figure-3-flex-bus-usage-model-examples), this flexible innovation port can be used to attach coherent accelerators or smart I/O to a Host processor.
 
+##### Figure 2. CPU Flex Bus Port Example
 
+![A diagram of a CPU with a Flex Bus port capable of PCIe or CXL, connecting via an optional retimer to either a Flex Bus x16 Connector/Slot (which accepts an X16 Flex Bus.CXL or X16 PCIe card) or directly to a Custom Accelerator on a Flex Bus Motherboard down.][figure_002]
 
-Figure 2. CPU Flex Bus Port Example
-
-![Figure 2: CPU Flex Bus Port Example][fig002]
+[figure_002]: figures/figure_002.png "Figure 2: CPU Flex Bus Port Example"
 
 ##### Figure 3. Flex Bus Usage Model Examples
 
+![A diagram portraying two interconnected CPUs via CPU to CPU Coherent Links, each connected to DDR memory. Below each CPU are two Flex Bus links connecting respectively to a Smart I/O device and an FPGA/Accelerator with an Optional Memory module.][figure_003]
 
+[figure_003]: figures/figure_003.png "Figure 3: Flex Bus Usage Model Examples"
 
 Figure 4 illustrates how a Flex Bus.CXL port can be used as a memory expansion port.
 
-![Figure 3: Flex Bus Usage Model Examples][fig003]
+##### Figure 4. Remote Far Memory Usage Model Example
 
+![A diagram similar to Figure 3, but featuring each of the two CPUs having an additional third Flex Bus link. These two additional links connect the two CPUs to a shared centralized Remote Far Memory module.][figure_004]
 
-
-Figure 4. Remote Far Memory Usage Model Example
-
-![Figure 4: Remote Far Memory Usage Model Example][fig004]
+[figure_004]: figures/figure_004.png "Figure 4: Remote Far Memory Usage Model Example"
 
 ### 1.5 Flex Bus Link Features
 
@@ -674,9 +671,11 @@ Flex Bus provides a point-to-point interconnect that can transmit native PCIe pr
 
 Flex Bus architecture is organized as multiple layers, as illustrated in Figure 5. The CXL transaction (protocol) layer is subdivided into logic that handles CXL.io and logic that handles CXL.mem and CXL.cache; the CXL link layer is subdivided in the same manner. Note that the CXL.mem and CXL.cache logic are combined within the transaction layer and within the link layer. The CXL link layer interfaces with the CXL ARB/MUX, which interleaves the traffic from the two logic streams. Additionally, the PCIe transaction and data link layers are optionally implemented and, if implemented, are converged with the CXL.io transaction and link layers, respectively. As a result of the link training process, the transaction and link layers are configured to operate in either PCIe mode or CXL mode. While a host CPU would most likely implement both modes, an accelerator AIC may choose to implement only the CXL mode. The logical sub-block of the Flex Bus physical layer is a converged logical physical layer that can operate in either PCIe mode or CXL mode, depending on the results of alternate mode negotiation during the link training process.
 
-Figure 5. Conceptual Diagram of Flex Bus Layering
+#### Figure 5. Conceptual Diagram of Flex Bus Layering
 
-![Figure 5: Conceptual Diagram of Flex Bus Layering][fig005]
+![A layer stack diagram showing the Flex Bus Layering. From top to bottom: CXL Transaction Layer (containing PCIe/CXL.io Transaction Layer and CXL.cache+CXL.mem Transaction Layer), CXL Link Layer (containing corresponding link layers for both), multiplexing through a CXL ARB/MUX, down to the Flex Bus Physical Layer containing PCIe/CXL Logical Sub-block and PCIe Electrical Sub-block with RX/TX.][figure_005]
+
+[figure_005]: figures/figure_005.png "Figure 5: Conceptual Diagram of Flex Bus Layering"
 
 ### 1.7 Document Scope
 
@@ -701,17 +700,15 @@ PCIe packets or CXL flits. During operational state, it prepares the data from t
 - [Section 13.0](#130-performance-considerations), 'Performance Considerations' on page 203 - This chapter describes hardware and software considerations for optimizing performance across the Flex Bus link in CXL mode.
 - [Section 14.0](#140-cxl-compliance-testing), 'CXL Compliance Testing' on page 204 - This chapter describes methodologies for ensuring that a device is compliant with the CXL specification.
 
-
-
 ## 2.0 Compute Express Link System Architecture
 
 This section describes the performance advantages and key features of CXL. CXL is a high performance I/O bus architecture used to interconnect peripheral devices that can be either traditional non-coherent IO devices or accelerators with additional capabilities. The types of devices that can attach and the overall system architecture is described in the figure below.
 
+### Figure 6. CXL Device Types
 
+![A diagram depicting three CXL device types attached to a Host Root Complex. Type 1 is a CXL Device without Memory displaying a Coh Cache and DTLB. Type 2 is a CXL Device with Memory featuring a Memory Controller, optional Coh Cache, and DTLB. Type 3 is a CXL Memory Expander featuring just a Memory Controller linking device memory.][figure_006]
 
-Figure 6. CXL Device Types
-
-![Figure 6: CXL Device Types][fig006]
+[figure_006]: figures/figure_006.png "Figure 6: CXL Device Types"
 
 Before we dive into the details of each type of CXL device, here's a foreword about where CXL is not applicable.
 
@@ -725,11 +722,11 @@ Basic cache coherency allows an accelerator to implement any ordering model it c
 
 processor snoop filter mechanisms. The size of cache that can be supported for such devices depends on the host's snoop filtering capacity. CXL supports such devices using its optional CXL.cache link over which an accelerator can use CXL.cache protocol for cache coherency transactions.
 
+#### Figure 7. Type 1 - Device with Cache
 
+![A diagram of a Type 1 CXL device. It features a Small Cache on the CXL device connected via CXL to a Coherency Bridge in the Host. The Coherency Bridge connects to Host-attached memory, while the CXL device may optionally have private device-attached memory.][figure_007]
 
-Figure 7. Type 1 - Device with Cache
-
-![Figure 7: Type 1 - Device with Cache][fig007]
+[figure_007]: figures/figure_007.png "Figure 7: Type 1 - Device with Cache"
 
 ### 2.2 Type 2 Device
 
@@ -737,11 +734,11 @@ Type 2 devices are ones which have memory, for example DDR, High Bandwidth Memor
 
 There is an important distinction between HDM and traditional IO/PCIe Private Device Memory (PDM). An example of such a device is a GPGPU with attached GDDR. Such devices have treated device-attached memory as Private. This means that the memory is not accessible to the Host and is not coherent with the rest of the system. It is managed entirely by the device HW and driver and is used primarily as intermediate storage for the device with large datasets. The obvious disadvantage to a model such as this is that it involves large amounts of copies back and forth from the Host memory to device-attached memory as operands are brought in and results are written back. Please note that CXL does not preclude devices with PDM.
 
+#### Figure 8. Type 2 Device - Device with Memory
 
+![A diagram of a Type 2 CXL device. It features a Small Cache connected to Host Managed Device Memory. The cache connects via CXL to a Coherency Bridge and Home Agent on the Host, representing memory access and coherency paths.][figure_008]
 
-Figure 8. Type 2 Device - Device with Memory
-
-![Figure 8: Type 2 Device - Device with Memory][fig008]
+[figure_008]: figures/figure_008.png "Figure 8: Type 2 Device - Device with Memory"
 
 At a high level, there are two models of operation that are envisaged for HDM. These are described below.
 
@@ -767,11 +764,11 @@ The bias modes are described in detail below.
 
 The Host Bias mode typically refers to the part of the cycle when the operands are being written to memory by the Host during work submission or when results are being read out from the memory after work completion. During Host Bias mode, coherency flows allows for high throughput access from the Host to device-attached memory (as shown by the blue arrows in Figure 9) whereas device access to device-attached memory is not optimal since they need to go through the host (as shown in green arrows in Figure 9).
 
+###### Figure 9. Type 2 Device - Host Bias
 
+![A diagram depicting Type 2 Device in Host Bias mode. Blue arrows show the data path routing through the Host's Home Agent over CXL to the device's DCOH and down to the Host Managed Device Memory, demonstrating host-centric access.][figure_009]
 
-Figure 9. Type 2 Device - Host Bias
-
-![Figure 9: Type 2 Device - Host Bias][fig009]
+[figure_009]: figures/figure_009.png "Figure 9: Type 2 Device - Host Bias"
 
 ##### 2.2.1.2 Device Bias
 
@@ -779,11 +776,11 @@ The Device Bias mode is used when the device is executing the work, between work
 
 In this mode, device can access device-attached memory without consulting the Host's coherency engines (as shown in red arrows in Figure 10). The Host can still access device-attached memory but may be forced to give up ownership by the accelerator (as shown in green arrows in Figure 10). This results in the device seeing ideal latency &amp; BW from device-attached memory, whereas the Host sees compromised performance.
 
+###### Figure 10. Type 2 Device - Device Bias
 
+![A diagram depicting Type 2 Device in Device Bias mode. A thick red arrow shows a direct, high-bandwidth path between the DCOH and Host Managed Device Memory. A Bias Flip interaction is shown occurring over CXL with the Host's Coherency Bridge.][figure_010]
 
-Figure 10. Type 2 Device - Device Bias
-
-![Figure 10: Type 2 Device - Device Bias][fig010]
+[figure_010]: figures/figure_010.png "Figure 10: Type 2 Device - Device Bias"
 
 ##### 2.2.1.3 Mode Management
 
@@ -826,15 +823,13 @@ It is sufficient if hardware provide hints (e.g., 'transition page X to bias Y n
 
 A CXL Type 3 device is fundamentally different from other device Types in the sense that unlike other device types, it is not an active compute engine. Instead, a Type 3 device is primarily a memory expander for the Host as shown in the figure below.
 
+#### Figure 11. Type 3 - Memory Expander
 
+![A diagram of a Type 3 CXL device. It shows the CXL Device acting purely as a memory expander, connected via CXL to the Host's Home Agent, which then routes down to Host Managed Device Memory natively attached to the device.][figure_011]
 
-Figure 11. Type 3 - Memory Expander
-
-![Figure 11: Type 3 - Memory Expander][fig011]
+[figure_011]: figures/figure_011.png "Figure 11: Type 3 - Memory Expander"
 
 Since this is not an accelerator, the device does not make any requests over CXL.cache. The device operates primarily over CXL.mem to service requests sent from the Host. The CXL.io link is used device discovery, enumeration, error reporting and management. The CXL architecture is independent of memory technology and allows for a range of memory organization possibilities depending on support implemented in the Host.
-
-
 
 ## 3.0 Compute Express Link Transaction Layer
 
@@ -842,9 +837,11 @@ Since this is not an accelerator, the device does not make any requests over CXL
 
 CXL.io provides a non-coherent load/store interface for I/O devices. Figure 12 shows where the CXL.io transaction layer exists in the Flex Bus layered hierarchy. Transaction types, transaction packet formatting, credit-based flow control, virtual channel management, and transaction ordering rules follow the PCIe definition; please refer to the 'Transaction Layer Specification' chapter of the PCI Express Base Specification for details. This chapter highlights notable PCIe operational modes or features that are used for CXL.io.
 
-Figure 12. Flex Bus Layers -- CXL.io Transaction Layer Highlighted
+#### Figure 12. Flex Bus Layers -- CXL.io Transaction Layer Highlighted
 
-![Figure 12: Flex Bus Layers -- CXL.io Transaction Layer Highlighted][fig012]
+![A layer stack diagram identical to Figure 5, but visually highlighting the PCIe/CXL.io Transaction Layer block in orange to emphasize its role.][figure_012]
+
+[figure_012]: figures/figure_012.png "Figure 12: Flex Bus Layers -- CXL.io Transaction Layer Highlighted"
 
 #### 3.1.1 PCIe Root Complex Integrated Endpoint
 
@@ -860,11 +857,11 @@ The CXL power management messages are sent as PCIe Vendor Defined Type0 messages
 - Byte 15 of the message header contains the VDM Code and is set to the value of 'CXL PM Message.' (68h)
 - The 4DW Data Payload contains the CXL PM Logical Opcode (e.g., PMREQ, PMRESP, etc) and any other information related to the CXL PM message. Details of fields within the Data Payload are described in [Table 3](#table-3-cxl-power-management-messages-data-payload-fields-definitions).
 
+##### Figure 13. CXL Power Management Messages Packet Format
 
+![A bit packet layout diagram outlining the CXL Power Management Messages Packet Format. It shows the PCIe VDM Type 0 Header format with its Fmt, Type, Requester ID, Vendor ID, and VDM Code fields alongside the 4DW of Data Payload fields including PM Logical Opcode, PM Agent ID, and Parameters.][figure_013]
 
-Figure 13. CXL Power Management Messages Packet Format
-
-![Figure 13: CXL Power Management Messages Packet Format][fig013]
+[figure_013]: figures/figure_013.png "Figure 13: CXL Power Management Messages Packet Format"
 
 ##### Table 3. CXL Power Management Messages -- Data Payload Fields Definitions
 
@@ -884,11 +881,11 @@ Figure 13. CXL Power Management Messages Packet Format
 
 Figure 14 illustrates the use of PM2IP.CREDIT_RTN and PM2IP.AGENT_INFO messages to initialize Power Management messaging protocol intended to facilitate communication between the Host Power Management Unit and the CXL Device.
 
+###### Figure 14. Power Management Credits and Initialization
 
+![A sequence diagram representing Power Management Credits and Initialization. The Host PMU and CXL Device exchange PM2IP and IP2PM CREDIT_RTN and AGENT_INFO messages, updating their TX.Credit tracking sequentially for initialization.][figure_014]
 
-Figure 14. Power Management Credits and Initialization
-
-![Figure 14: Power Management Credits and Initialization][fig014]
+[figure_014]: figures/figure_014.png "Figure 14: Power Management Credits and Initialization"
 
 The CXL device must be able to receive and process CREDIT_RTN messages without dependency on any other PM2IP messages. Also, CREDIT_RTN messages do not use a credit. The CREDIT_RTN messages are used to exchange and initialize the TX credits on each side, so that flow control can be managed appropriately. The credits being sent from either side represent the number of messages that side can receive from the other. CREDIT_RTN message is also used by the Host to assign a PM_AGENT_ID to the CXL Device. CXL Device must wait for the CREDIT_RTN message from the Host before initiating any IP2PM messages to the host.
 
@@ -929,11 +926,11 @@ Requests to certain memory regions can only be issued on CXL.io and not on CXL.c
 
 ATS requests sourced from a CXL device must set the 'Source-CXL' bit.
 
+##### Figure 15. ATS 64-bit Request with CXL Indication
 
+![A table diagram illustrating the Address Translation Services (ATS) Request format. It shows the bit layout across Byte 0, 4, 8, and 12, mapping fields like Fmt, Type, Requester ID, Tag, Untranslated Address [63:12], and CXL Src.][figure_015]
 
-Figure 15. ATS 64-bit Request with CXL Indication
-
-![Figure 15: ATS 64-bit Request with CXL Indication][fig015]
+[figure_015]: figures/figure_015.png "Figure 15: ATS 64-bit Request with CXL Indication"
 
 | ATS     |         |    |            |    | +1          | +1                         | +1   | +1   | +1    | +1                         | +2   | +2      | +2   | +2    |   +2 | +2       | +3            | +3         | +3         | +3         | +3           | +3         | +3         | +3         |
 |---------|---------|----|------------|----|-------------|----------------------------|------|------|-------|----------------------------|------|---------|------|-------|------|----------|---------------|------------|------------|------------|--------------|------------|------------|------------|
@@ -947,11 +944,11 @@ Figure 15. ATS 64-bit Request with CXL Indication
 
 ATS translation completion from the Host will carry the indication that requests to a given page can only be issued on CXL.io using the following bit, 'Issue-on-CXL.io', in the Translation Completion Data Entry:
 
+##### Figure 16. ATS Translation Completion Data Entry with CXL indication
 
+![A table diagram illustrating the ATS Completion Cpl Data Entry format. It shows Byte 0 and Byte 4 mapping the Translated Address [63:12] alongside various boolean flags like S, N, CXL.io, Global, Priv, and Exe.][figure_016]
 
-Figure 16. ATS Translation Completion Data Entry with CXL indication
-
-![Figure 16: ATS Translation Completion Data Entry with CXL indication][fig016]
+[figure_016]: figures/figure_016.png "Figure 16: ATS Translation Completion Data Entry with CXL indication"
 
 DWORD1, Byte 2, Bit 1
 
@@ -964,13 +961,11 @@ Deferrable Writes enable scalable work submission to a CXL device by multiple so
 On CXL.io, a Deferrable Write is sent as a NPMemWr32/64 transaction which has the following encodings (please note that the encoding for NPMemWr32 is deprecated in PCIe):
 
 Fmt[2:0] - 010b/011b
-
 Type[4:0] - 11011b
 
 Since Deferrable Write is non-posted, the device is expected to send a Cpl response. The Completion Status field in the Cpl (with a Byte Count of '4) indicates whether work was successfully accepted or not. Successful work submission is accompanied by a 'Successful Completion' Completion Status. Unsuccessful work submission is accompanied by a 'Memory Request Retry Status' Completion Status. The encoding for these are:
 
 Successful Completion (SC) - 000b
-
 Memory Request Retry Status (MRS) - 010b
 
 ### 3.2 CXL.cache
@@ -989,7 +984,9 @@ The CXL.cache interface has 3 main channels in each direction between the device
 
 Box plot
 
-![Figure 17: CXL.cache Channels][fig017]
+![A block diagram displaying the channel communication architecture. It shows three Device to Host (D2H) channels pointing up: D2H Req, D2H Resp, and D2H Data. It also shows three Host to Device (H2D) channels pointing down: H2D Req, H2D Resp, and H2D Data.][figure_017]
+
+[figure_017]: figures/figure_017.png "Figure 17: CXL.cache Channels"
 
 #### 3.2.2 CXL.cache Channel Description
 
@@ -1152,11 +1149,11 @@ CXL.cache Reads must have a D2H request credit and send a request message on the
 
 The figure below shows the elements required to complete a CXL.cache Read. Note that the response (GO) message can be received before, after, or between the data messages.
 
+####### Figure 18. CXL.cache Read Behavior
 
+![A sequence diagram representing a Read operation. A D2H Read Request Message is sent to the Host. The Host processes and returns an H2D Response GO Message, followed by two H2D Data Messages of 32 Bytes each returning to the Device.][figure_018]
 
-Figure 18. CXL.cache Read Behavior
-
-![Figure 18: CXL.cache Read Behavior][fig018]
+[figure_018]: figures/figure_018.png "Figure 18: CXL.cache Read Behavior"
 
 ###### 3.2.4.1.3 CXL.cache Read0
 
@@ -1164,11 +1161,11 @@ CXL.cache Read0 must have a D2H request credit and send a message on the D2H CXL
 
 The following figure shows the elements required to complete a CXL.cache Read0 transaction.
 
+####### Figure 19. CXL.cache Read0 Behavior
 
+![A sequence diagram representing a Read0 operation. A D2H Read0 Request Message is sent to the Host. The Host processes it and sends back an H2D Response GO Message via the H2D Response Channel.][figure_019]
 
-Figure 19. CXL.cache Read0 Behavior
-
-![Figure 19: CXL.cache Read0 Behavior][fig019]
+[figure_019]: figures/figure_019.png "Figure 19: CXL.cache Read0 Behavior"
 
 ###### 3.2.4.1.4 CXL.cache Write
 
@@ -1190,23 +1187,23 @@ Figure 21 shows a case where the WritePull is a separate message from the GO (fo
 
 Figure 22 shows the Host FastGO plus ExtCmp responses for weakly ordered write requests.
 
+####### Figure 20. CXL.cache Device to Host Write Behavior
 
+![A sequence diagram representing a Write operation. A D2H Write Request Message is sent to the Host. The Host returns an H2D GO+Write Pull combined Message. The Device then sends two D2H Data Messages to the Host, completing the operation.][figure_020]
 
-Figure 20. CXL.cache Device to Host Write Behavior
+[figure_020]: figures/figure_020.png "Figure 20: CXL.cache Device to Host Write Behavior"
 
-![Figure 20: CXL.cache Device to Host Write Behavior][fig020]
+####### Figure 21. CXL.cache WrInv Transaction
 
+![A sequence diagram representing an alternative Write sequence. A D2H Write Request Message is sent. The Host returns an H2D Write Pull Message. The Device sends two D2H Data Messages. Finally, the Host returns an H2D Go Message.][figure_021]
 
+[figure_021]: figures/figure_021.png "Figure 21: CXL.cache WrInv Transaction"
 
-Figure 21. CXL.cache WrInv Transaction
+####### Figure 22. WOWrInv/F with FastGO/ExtCmp
 
-![Figure 21: CXL.cache WrInv Transaction][fig021]
+![A sequence diagram representing a Write operation with FastGO. A D2H Write Request Message is sent. The Host returns a combined FastGO and Write Pull Message. The Device sends two D2H Data Messages. The Host then sends an H2D ExtCmp Message.][figure_022]
 
-
-
-Figure 22. WOWrInv/F with FastGO/ExtCmp
-
-![Figure 22: WOWrInv/F with FastGO/ExtCmp][fig022]
+[figure_022]: figures/figure_022.png "Figure 22: WOWrInv/F with FastGO/ExtCmp"
 
 ###### 3.2.4.1.5 CXL.cache Read0-Write Semantics
 
@@ -1218,15 +1215,15 @@ A CXL.cache Read0-write transaction is considered complete by the device once th
 
 The Host considers a read0-write to be done once it has received all 64 bytes of data, and has sent the GO-I response message. ItoMWr falls into the Read0-Write category.
 
+####### Figure 23. CXL.cache Read0-Write Semantics
 
+![A sequence diagram representing a Read0-Write operation. A D2H Read0-Write Request Message undergoes processing. The Host responds with an H2D Rsp GO-I/WritePull Message. The Device subsequently sends two D2H Data Messages to the Host.][figure_023]
 
-Figure 23. CXL.cache Read0-Write Semantics
-
-![Figure 23: CXL.cache Read0-Write Semantics][fig023]
+[figure_023]: figures/figure_023.png "Figure 23: CXL.cache Read0-Write Semantics"
 
 Table 15 summarizes all the opcodes available from Device to Host.
 
-Table 15. CXL.cache. - Device to Host Requests
+####### Table 15. CXL.cache. - Device to Host Requests
 
 | CXL.cache Opcode   | Semantic    |   Opcode |
 |--------------------|-------------|----------|
@@ -1342,7 +1339,7 @@ In error conditions, a GO-Err is received. The device is responsible for handlin
 
 This is an indication sent by the device to inform the Host that its caches are flushed and it no longer contains any cache-lines in the Shared, Exclusive or Modified state. The Host can use this information to clear its snoop filters and block snoops to the device and return a GO. Once the device receives the GO, it is guaranteed to not receive any snoops from the Host until the device sends the next cacheable D2H Request.
 
-Table 16. D2H Request (targeting non-device-attached memory) supported H2D Responses
+####### Table 16. D2H Request (targeting non-device-attached memory) supported H2D Responses
 
 | D2H Request      | WritePull   | GO_WritePull   | ExtCmp   | GO_WritePull_Drop   | FastGO_WritePull   | GO_ERR_WritePull   | GO-Err   | GO-I   | GO-S   | GO-E   | GO-M   |
 |------------------|-------------|----------------|----------|---------------------|--------------------|--------------------|----------|--------|--------|--------|--------|
@@ -1364,7 +1361,7 @@ Table 16. D2H Request (targeting non-device-attached memory) supported H2D Respo
 
 For requests targeting device-attached memory, if the region is in Device Bias, no transaction is expected on CXL.cache since the Device can complete those requests internally. If the region is in Host Bias, the table below shows how the device should expect the response.
 
-Table 17. D2H Request (Targeting Device-attached Memory) Supported Responses
+####### Table 17. D2H Request (Targeting Device-attached Memory) Supported Responses
 
 | D2H Request      | Response on CXL.mem   | Response on CXL.cache        |
 |------------------|-----------------------|------------------------------|
@@ -1436,13 +1433,13 @@ Snoops from the Host need not gain any credits besides local H2D request credits
 
 The figure below shows the elements required to complete a CXL.cache snoop. Note that the response message can be received by the Host with any relative order with the data messages. The byte enable field is always all 1s for Snoop data transfers.
 
+###### Figure 24. CXL.cache Snoop Behavior
 
+![A sequence diagram representing a Snoop operation. The Host sends an H2D Snoop Request Message to the Device. The Device responds with a D2H Response (Rsp-X) Message. If the response entails forwarding (RspIFwdM), two additional D2H Data Messages are sent.][figure_024]
 
-Figure 24. CXL.cache Snoop Behavior
+[figure_024]: figures/figure_024.png "Figure 24: CXL.cache Snoop Behavior"
 
-![Figure 24: CXL.cache Snoop Behavior][fig024]
-
-Table 19. CXL.cache - Mapping of Host to Device Requests &amp; Responses
+###### Table 19. CXL.cache - Mapping of Host to Device Requests &amp; Responses
 
 |         | Opcode   | RspIHitI   | RspVhitV   | RspSHitSE   | RspIHitSE   | RspSFwdM   | RspIFwdM   | RspVFwdV   |
 |---------|----------|------------|------------|-------------|-------------|------------|------------|------------|
@@ -1822,9 +1819,9 @@ The transaction flow diagrams below are intended to be illustrative of the flows
 
 ###### Figure 25. Legend
 
+![A legend defining the meaning of colored arrows in the diagrams. A blue arrow signifies CXL.mem. A green arrow signifies CXL.cache. A red arrow signifies Device Specific paths.][figure_025]
 
-
-![Figure 25: Legend][fig025]
+[figure_025]: figures/figure_025.png "Figure 25: Legend"
 
 ##### 3.4.1.2 Requests from Host
 
@@ -1832,53 +1829,65 @@ Please note that the flows shown in this section (Requests from Host) do not cha
 
 ###### Figure 26. Example Cacheable Read from Host
 
-![Figure 26: Example Cacheable Read from Host][fig026]
+![A sequence diagram showing a Cacheable Read from Host operation. The Host sends MemRd,SnpData over CXL to the DCOH, which issues SnpData to the Dev Cache. The Dev Cache returns Data and RspS, and the DCOH returns Cmp-S and MemData back to the Host.][figure_026]
+
+[figure_026]: figures/figure_026.png "Figure 26: Example Cacheable Read from Host"
 
 In the above example, the Host requested a cacheable non-exclusive copy of the line. The non-exclusive aspect of the request is communicated using the 'SnpData' semantic. In this example, the request got a snoop filter hit in the DCOH, which caused the device cache to be snooped. The device cache downgraded the state from Exclusive to Shared and returned the Shared data copy to the Host. The Host is told of the state of the line using the Cmp-S semantic.
 
+###### Figure 27. Example Read for Ownership from Host
 
+![A sequence diagram showing a Read for Ownership from Host operation. The Host sends MemRd,SnpInv to the DCOH. The DCOH issues SnpInv to the Dev Cache, which returns Data and RspI. The DCOH returns Cmp-E and MemData to the Host.][figure_027]
 
-Figure 27. Example Read for Ownership from Host
-
-![Figure 27: Example Read for Ownership from Host][fig027]
+[figure_027]: figures/figure_027.png "Figure 27: Example Read for Ownership from Host"
 
 In the above example, the Host requested a cacheable exclusive copy of the line. The exclusive aspect of the request is communicated using the 'SnpInv' semantic, which asks the device to invalidate its caches. In this example, the request got a snoop filter hit in the DCOH, which caused the device cache to be snooped. The device cache downgraded the state from Exclusive to Invalid and returned the Exclusive data copy to the Host. The Host is told of the state of the line using the Cmp-E semantic.
 
+###### Figure 28. Example Non Cacheable Read from Host
 
+![A sequence diagram showing a Non Cacheable Read from Host operation. The Host sends MemRd,SnpCur to the DCOH. The DCOH issues SnpCur to the Dev Cache, pulling RspV and Data. The DCOH returns Cmp and MemData to the Host.][figure_028]
 
-Figure 28. Example Non Cacheable Read from Host
-
-![Figure 28: Example Non Cacheable Read from Host][fig028]
+[figure_028]: figures/figure_028.png "Figure 28: Example Non Cacheable Read from Host"
 
 In the above example, the Host requested a non-cacheable copy of the line. The noncacheable aspect of the request is communicated using the 'SnpCurr' semantic. In this example, the request got a snoop filter hit in the DCOH, which caused the device cache to be snooped. The device cache did not need to change its caching state; however, it gave the current snapshot of the data. The Host is told that it is not allowed to cache the line using the Cmp semantic.
 
-Figure 29. Example Ownership Request from Host - No Data Required
+###### Figure 29. Example Ownership Request from Host - No Data Required
 
-![Figure 29: Example Ownership Request from Host - No Data Required][fig029]
+![A sequence diagram showing an Ownership Request from Host with No Data Required. The Host sends MemInv, SnpInv, MetaValue=10 to the DCOH. The DCOH triggers SnpInv on the Dev Cache, recovering RspI, and finishing with a Cmp-E sent back to the Host.][figure_029]
+
+[figure_029]: figures/figure_029.png "Figure 29: Example Ownership Request from Host - No Data Required"
 
 In the above example, the Host requested exclusive access to a line without requiring the device to send data. It communicates that to the device using an opcode of MemInv with a MetaValue of '10 (Any), which is significant in this case. It also asks the device to invalidate its caches with the SnpInv command. The device invalidates its caches and gives exclusive ownership to the Host as communicated using the Cmp-E semantic.
 
-Figure 30. Example Flush from Host
+###### Figure 30. Example Flush from Host
 
-![Figure 30: Example Flush from Host][fig030]
+![A sequence diagram showing a Flush from Host with No Data Required. The Host sends MemInv, SnpInv, MetaValue=00 to the DCOH. The DCOH triggers SnpInv on the Dev Cache, routing a Write to Dev Mem, which sends a Cmp back through to the Host.][figure_030]
+
+[figure_030]: figures/figure_030.png "Figure 30: Example Flush from Host"
 
 In the above example, the Host wants to flush a line from all caches, including the device's caches, to memory. To do so, it uses an opcode of MemInv with a MetaValue of '00 (Invalid) and a SnpInv. The device flushes its caches and returns a Cmp indication to the Host.
 
-Figure 31. Example Weakly Ordered Write from Host
+###### Figure 31. Example Weakly Ordered Write from Host
 
-![Figure 31: Example Weakly Ordered Write from Host][fig031]
+![A sequence diagram showing a Weakly Ordered Write from Host. The Host sends MemWr/MemWrPtl, SnpInv to the DCOH. Sub-operations occur between the Dev Cache returning RspI with Data, merged data written to Dev Mem, and a Cmp returned to the Host.][figure_031]
+
+[figure_031]: figures/figure_031.png "Figure 31: Example Weakly Ordered Write from Host"
 
 In the above example, the Host issues a weakly ordered write (partial or full line). The weakly ordered semantic is communicated by the embedded SnpInv. In this example, the device had a copy of the line cached. This resulted in a merge within the device before writing it back to memory and sending a Cmp indication to the Host.
 
-Figure 32. Example Strongly Ordered Write from Host with Invalid Host Caches
+###### Figure 32. Example Strongly Ordered Write from Host with Invalid Host Caches
 
-![Figure 32: Example Strongly Ordered Write from Host with Invalid Host Caches][fig032]
+![A sequence diagram showing a Strongly Ordered Write from Host with Invalid Caches. The Host sends MemWr, MetaValue=00 to the DCOH. A subsequent Write is sent directly to Dev Mem, which issues a Cmp that returns to the Host.][figure_032]
+
+[figure_032]: figures/figure_032.png "Figure 32: Example Strongly Ordered Write from Host with Invalid Host Caches"
 
 In the above example, the Host performed a strongly ordered write while guaranteeing to the device that it no longer has a valid cached copy of the line. The strong ordering is demonstrated by the fact that the Host didn't need to snoop the device's caches which means it previously acquired an exclusive copy of the line. The guarantee on no valid cached copy is indicated by a MetaValue of '00 (Invalid).
 
-Figure 33. Example Strongly Ordered Write from Host with Valid Caches
+###### Figure 33. Example Strongly Ordered Write from Host with Valid Caches
 
-![Figure 33: Example Strongly Ordered Write from Host with Valid Caches][fig033]
+![A sequence diagram showing a Strongly Ordered Write from Host with Valid Caches. The Host sends MemWr, MetaValue!=00 to the DCOH, passing a Write straight to the Dev Mem, returning a Cmp backwards to the Host.][figure_033]
+
+[figure_033]: figures/figure_033.png "Figure 33: Example Strongly Ordered Write from Host with Valid Caches"
 
 The above example is the same as the previous one except that the Host chose to retain a valid cacheable copy of the line after the write. This is communicated to the device using a MetaValue of not '00 (Invalid).
 
@@ -1886,7 +1895,9 @@ The above example is the same as the previous one except that the Host chose to 
 
 ###### Figure 34. Example Device Read to Device-Attached Memory
 
-![Figure 34: Example Device Read to Device-Attached Memory][fig034]
+![A sequence diagram showing a Device Read to Device Memory operation. It features two flow paths based on Bias. For Bias=Host, the DCOH routes a Read through the Host via Rd* before fetching from Dev Mem. For Bias=Device, the DCOH pulls directly from Dev Mem.][figure_034]
+
+[figure_034]: figures/figure_034.png "Figure 34: Example Device Read to Device-Attached Memory"
 
 There are two flows shown above.
 
@@ -1894,11 +1905,11 @@ In the first one, a device read to device attached memory happened to find the l
 
 In the second flow, the device read happened to find the line in Device Bias. Since it is in Device Bias, the read can be completed entirely within the device itself and no request needs to be sent to the Host.
 
+###### Figure 35. Example Device Write to Device-Attached Memory in Host Bias
 
+![A sequence diagram illustrating a Device Write to Device Memory with Host Bias. The Device initiates a WO/SO Write Req. The DCOH communicates with the Host to manage coherency, then issues a WrPull to the Device to pull Data, writes it to Dev Mem, and sends completions back.][figure_035]
 
-Figure 35. Example Device Write to Device-Attached Memory in Host Bias
-
-![Figure 35: Example Device Write to Device-Attached Memory in Host Bias][fig035]
+[figure_035]: figures/figure_035.png "Figure 35: Example Device Write to Device-Attached Memory in Host Bias"
 
 There are two flows shown above, both with the line in Host Bias: a weakly ordered write request and a strongly ordered write request.
 
@@ -1906,21 +1917,21 @@ In the case of the weakly ordered write request, the request is issued by the de
 
 In the second flow, the write is strongly ordered. To preserve the strongly ordered semantic, the Host fences against other accesses while this write completes. However, as can be seen, this involves two transfers of the data across the link, which is not efficient. Unless strongly ordered writes are absolutely required, better performance can be achieved with weakly ordered writes.
 
+###### Figure 36. Example Device Write to Device-Attached Memory
 
+![A sequence diagram illustrating a Device Write to Device Memory with Device Bias. The Device initiates a Write Req. The DCOH issues a WrPull to the Device, receives Data, writes to Dev Mem, and returns a Cmp. The flow shows variations based on Bias.][figure_036]
 
-Figure 36. Example Device Write to Device-Attached Memory
-
-![Figure 36: Example Device Write to Device-Attached Memory][fig036]
+[figure_036]: figures/figure_036.png "Figure 36: Example Device Write to Device-Attached Memory"
 
 Again, two flows are shown above. In the first case, if a weakly or strongly ordered write finds the line in Device Bias, the write can be completed entirely within the device without having to send any indication to the Host.
 
 The second flow shows a device writeback to device-attached memory. Please note that if the device is doing a writeback to device-attached memory, regardless of bias state, the request can be completed within the device without having to send a request to the Host.
 
+###### Figure 37. Example Host to Device Bias Flip
 
+![A sequence diagram illustrating a Host to Device Bias Flip. The Device Transition Agent requests ownership. The Host completes a MemWr with the modified line to the Device, and follows up with MemRdFwd to complete the bias transition to Device.][figure_037]
 
-Figure 37. Example Host to Device Bias Flip
-
-![Figure 37: Example Host to Device Bias Flip][fig037]
+[figure_037]: figures/figure_037.png "Figure 37: Example Host to Device Bias Flip"
 
 Please note that the MemRdFwd will carry the CQID of the RdOwnNoData transaction in the Tag. The reason for putting the RdOwnNoData completion (MemRdFwd) on CXL.mem is to ensure that subsequent requests from the Host to the same address are ordered behind the MemRdFwd. This allows the device to assume ownership of a line as soon as it receives a MemRdFwd without having to monitor requests from the Host.
 
@@ -1928,17 +1939,19 @@ Please note that the MemRdFwd will carry the CQID of the RdOwnNoData transaction
 
 Type 3 devices are memory expanders which neither cache host memory, nor require active management of a device cache by the Host. Thus, Type 3 devices do not have a DCOH agent. As such, the Host treats these devices as disaggregated memory controllers. This allows the transaction flows to Type 3 devices to be simplified to just two classes, reads and writes, as shown below. The legend shown in [Figure 25](#figure-25-legend) also applies to the transaction flows shown below.
 
+#### Figure 38. Read from Host
 
+![A sequence diagram depicting a Read from Host targeting an unmanaged Device Memory. The Host sends a MemRd* over CXL to a Dev Mem Controller, which fetches from Dev Mem and returns the raw Data to the Host.][figure_038]
 
-Figure 38. Read from Host
-
-![Figure 38: Read from Host][fig038]
+[figure_038]: figures/figure_038.png "Figure 38: Title not found"
 
 The key difference between reads to Type 1 and Type 2 devices versus Type 3 devices is that there is no S2M NDR associated with it. Writes to Type 3 device always complete with a S2M NDR Cmp message.
 
-Figure 39. Write from Host
+#### Figure 39. Write from Host
 
-![Figure 39: Write from Host][fig039]
+![A sequence diagram depicting a Write from Host to an unmanaged Device Memory. The Host issues a MemWr* over CXL, which the Dev Mem Controller converts to interact with Dev Mem. A Cmp is subsequently returned to the Host.][figure_039]
+
+[figure_039]: figures/figure_039.png "Figure 39: Title not found"
 
 ## 4.0 Compute Express Link Link Layers
 
@@ -1946,9 +1959,11 @@ Figure 39. Write from Host
 
 The CXL.io link layer acts as an intermediate stage between the CXL.io transaction layer and the Flex Bus Physical layer. Its primary responsibility is to provide a reliable mechanism for exchanging transaction layer packets (TLPs) between two components on the link. The PCIe Data Link Layer is utilized as the link layer for CXL.io Link layer. Please refer to chapter titled 'Data Link Layer Specification' in PCI Express Base Specification for details.
 
-Figure 40. Flex Bus Layers -- CXL.io Link Layer Highlighted
+#### Figure 40. Flex Bus Layers -- CXL.io Link Layer Highlighted
 
-![Figure 40: Flex Bus Layers -- CXL.io Link Layer Highlighted][fig040]
+![A block diagram of the CXL protocol stack architecture, dividing into the CXL Transaction Layer, CXL Link Layer, and Flex Bus Physical Layer connected via a CXL ARB/MUX mechanism. It distinguishes PCIe/CXL.io components from CXL.cache + CXL.mem components.][figure_040]
+
+[figure_040]: figures/figure_040.png "Figure 40: Title not found"
 
 In addition, the CXL.io link layer implements the framing/deframing of CXL.io packets. CXL.io utilizes the Encoding for 8.0 GT/s and Higher data rates only, refer to section entitled 'Encoding for 8.0GT/s and Higher Data Rates' in the PCI Express Base Specification for details.
 
@@ -1966,9 +1981,11 @@ CXL.io link layer forwards a framed IO packet to the Flex Bus Physical layer. Th
 
 The figure below shows where the CXL.cache and CXL.mem link layer exists in the Flex Bus layered hierarchy.
 
-Figure 41. Flex Bus Layers -- CXL.cache + CXL.mem Link Layer Highlighted
+##### Figure 41. Flex Bus Layers -- CXL.cache + CXL.mem Link Layer Highlighted
 
-![Figure 41: Flex Bus Layers -- CXL.cache + CXL.mem Link Layer Highlighted][fig041]
+![A highlighted block diagram of the CXL protocol stack architecture. The CXL.cache + CXL.mem Link Layer block is emphasized in orange within the CXL Link Layer, highlighting its role alongside the PCIe/CXL.io Link Layer.][figure_041]
+
+[figure_041]: figures/figure_041.png "Figure 41: Flex Bus Layers -- CXL.cache + CXL.mem Link Layer Highlighted"
 
 As previously mentioned, CXL.cache &amp; CXL.mem protocols use a common Link Layer. This chapter defines the properties of this common Link Layer. Protocol information, including definition of fields, opcodes, transaction flows etc can be found in [Section 3.2](#32-cxlcache) and [Section 3.3](#33-cxlmem).
 
@@ -1976,19 +1993,25 @@ As previously mentioned, CXL.cache &amp; CXL.mem protocols use a common Link Lay
 
 The CXL.cache/mem flit size is a fixed 528b. There are 2B of CRC code and 4 slots of 16B each as shown below.
 
-Figure 42. CXL.cache/.mem Protocol Flit Overview
+##### Figure 42. CXL.cache/.mem Protocol Flit Overview
 
-![Figure 42: CXL.cache/.mem Protocol Flit Overview][fig042]
+![A table mapping the 68-byte Flit Format for CXL Cache and Mem. It shows a 2-byte Flit Header followed by a Header Slot, three Generic Slots, and culminating with a 2-byte CRC.][figure_042]
 
-Figure 43. CXL.cache/.mem All Data Flit Overview
+[figure_042]: figures/figure_042.png "Figure 42: CXL.cache/.mem Protocol Flit Overview"
 
-![Figure 43: CXL.cache/.mem All Data Flit Overview][fig043]
+##### Figure 43. CXL.cache/.mem All Data Flit Overview
+
+![A table mapping the All Data Flit Format. The structure consists entirely of Data Chunks stretching across the 68 bytes leading up to a single 2-byte CRC at the very end.][figure_043]
+
+[figure_043]: figures/figure_043.png "Figure 43: CXL.cache/.mem All Data Flit Overview"
 
 An example of a Protocol Flit in the device to Host direction is shown below. For detailed descriptions of slot formats please refer to [Section 4.2.3](#423-slot-format-definition)
 
-Figure 44. Example of a Protocol Flit from device to Host
+##### Figure 44. Example of a Protocol Flit from device to Host
 
-![Figure 44: Example of a Protocol Flit from device to Host][fig044]
+![A unified table mapping showing packed 16-byte message slot formats. It portrays overlapping 16-byte slot variations like H1 (D2H Req + D2H DH), G1, G2, and G0. It packs fields like Addr, Opcode, UQID, CQID, and Data into slots.][figure_044]
+
+[figure_044]: figures/figure_044.png "Figure 44: Example of a Protocol Flit from device to Host"
 
 A 'Header' Slot is defined as one that carries a 'Header' of link-layer specific information, including the definition of the protocol-level messages contained in the rest of the header as well as in the other slots in the flit.
 
@@ -2042,13 +2065,13 @@ Similarly, the Size field reflects the fact that the CXL.cache protocol allows t
 
 The following table describes legal values of Sz and BE for various data transfers.
 
-Table 36. Legal values of Sz &amp; BE Fields
+##### Table 36. Legal values of Sz &amp; BE Fields
 
 | Type of Data Transfer   | 32B Transfer Possible?   | BE Possible?   |
 |-------------------------|--------------------------|----------------|
 | CXL.cache H2D Data      | Yes                      | No             |
 
-Table 36. Legal values of Sz &amp; BE Fields
+##### Table 36. Legal values of Sz &amp; BE Fields
 
 | Type of Data Transfer   | 32B Transfer Possible?   | BE Possible?   |
 |-------------------------|--------------------------|----------------|
@@ -2058,7 +2081,7 @@ Table 36. Legal values of Sz &amp; BE Fields
 
 The transmitter sets the Credit Return fields to indicate resources available in the colocated receiver for use by the remote transmitter. Credits are given for transmission per message class, which is why the flit header contains independent Request, Response, and Data Credit Return fields. The granularity of credits is per transfer. For data transfers, this means 1 credit allows for one data transfer, regardless of whether the transfer is 64B, 32B or contains Byte Enables. These fields are encoded exponentially, as delineated in the table below.
 
-Table 37. CXL.cache/CXL.mem Credit Return Encodings
+##### Table 37. CXL.cache/CXL.mem Credit Return Encodings
 
 | Credit Return Encoding[3]   | Protocol          |
 |-----------------------------|-------------------|
@@ -2149,137 +2172,167 @@ Flit, slot and message bits that are not defined will be marked 'RSVD' in this s
 
 ###### Figure 45. H0 - H2D Req + H2D Resp
 
+![A detailed bit-level layout table for an H1 Slot indicating D2H Req + D2H DH. The diagram covers 16 bytes and specifics like Opcode, Address [51:6], UQID, CQID, RSVD, and Valid flags mapped against bit and byte indices.][figure_045]
 
+[figure_045]: figures/figure_045.png "Figure 45: H0 - H2D Req + H2D Resp"
 
-![Figure 45: H0 - H2D Req + H2D Resp][fig045]
+###### Figure 46. H1 - H2D Data Header + H2D Resp + H2D Resp
 
+![A detailed bit-level layout table for a G1 slot showing D2H Req + D2H Resp + D2H Resp. It spans 16 bytes, placing UQID, CQID, PRE, Opcode, and other signaling fields tightly within bit ranges.][figure_046]
 
+[figure_046]: figures/figure_046.png "Figure 46: H1 - H2D Data Header + H2D Resp + H2D Resp"
 
-Figure 46. H1 - H2D Data Header + H2D Resp + H2D Resp
+###### Figure 47. H2 - H2D Req + H2D Data Header
 
-![Figure 46: H1 - H2D Data Header + H2D Resp + H2D Resp][fig046]
+![A detailed bit-level layout table for a G2 slot representing D2H Req + D2H DH + D2H Resp. The diagram shows the bitwise packing of Addresses, UQID, CQID, PRE, and specific operational fields.][figure_047]
 
+[figure_047]: figures/figure_047.png "Figure 47: H2 - H2D Req + H2D Data Header"
 
+###### Figure 48. H3 - 4 H2D Data Header
 
-Figure 47. H2 - H2D Req + H2D Data Header
+![A detailed bit-level layout table for a generic repeating slot structure. The table illustrates multiple blocks mapped evenly across 16 bytes, containing CQID, UQID, Opcode, and control flags interlaced.][figure_048]
 
-![Figure 47: H2 - H2D Req + H2D Data Header][fig047]
+[figure_048]: figures/figure_048.png "Figure 48: H3 - 4 H2D Data Header"
 
+###### Figure 49. H4 - M2S RwD Header
 
+![A detailed bit-level layout table representing a Host-to-Device (H2D) Request. Key fields like MemOp, MetaValue, Tag, Address [51:6], SnpType, and TC populate the 16-byte wide slot mapping.][figure_049]
 
-Figure 48. H3 - 4 H2D Data Header
+[figure_049]: figures/figure_049.png "Figure 49: H4 - M2S RwD Header"
 
-![Figure 48: H3 - 4 H2D Data Header][fig048]
+###### Figure 50. H5 - M2S Req
 
+![A detailed bit-level layout table representing a Host-to-Device (H2D) Request similar to the previous format but utilizing a MetaField configuration alongside the Tag and Address distributions over 16 bytes.][figure_050]
 
+[figure_050]: figures/figure_050.png "Figure 50: H5 - M2S Req"
 
-Figure 49. H4 - M2S RwD Header
+###### Figure 51. G0 - H2D/M2S Data
 
-![Figure 49: H4 - M2S RwD Header][fig049]
+![A structural table indicating a 16-byte contiguous block solely allocated for Data transmission. All bits and bytes in the layout are shown painted solid orange and marked as Data.][figure_051]
 
+[figure_051]: figures/figure_051.png "Figure 51: G0 - H2D/M2S Data"
 
+###### Figure 52. G0 - M2S Byte Enable
 
-Figure 50. H5 - M2S Req
+![A structured table spanning 16 bytes. The first half is designated as 'BE' (Byte Enable), formatted in orange, while the latter half is designated as 'RSVD' (Reserved), colored gray.][figure_052]
 
-![Figure 50: H5 - M2S Req][fig050]
+[figure_052]: figures/figure_052.png "Figure 52: G0 - M2S Byte Enable"
 
-Figure 51. G0 - H2D/M2S Data
+###### Figure 53. G1 - 4 H2D Resp
 
-![Figure 51: G0 - H2D/M2S Data][fig051]
+![A detailed bit-level mapping table for a complex repeating message format. The 16-byte block repetitively layers sub-fields like Opcode, CQID, UQID, PRE, and generic reserved or spare slices.][figure_053]
 
-Figure 52. G0 - M2S Byte Enable
+[figure_053]: figures/figure_053.png "Figure 53: G1 - 4 H2D Resp"
 
-![Figure 52: G0 - M2S Byte Enable][fig052]
+###### Figure 54. G2 - H2D Req + H2D Data Header + H2D Resp
 
+![A detailed bit-level layout table. It incorporates fields for Address [51:6], Opcode, UQID, CQID, PRE, and numerous specific control tags mapped efficiently over a 16-byte span.][figure_054]
 
+[figure_054]: figures/figure_054.png "Figure 54: G2 - H2D Req + H2D Data Header + H2D Resp"
 
-Figure 53. G1 - 4 H2D Resp
+###### Figure 55. G3 - 4 H2D Data Header + H2D Resp
 
-![Figure 53: G1 - 4 H2D Resp][fig053]
+![A detailed bit-level mapping table for a 16-byte message slot, outlining byte and bit offsets for numerous fields like CQID, PRE, Channel (Ch), Pool (Poi), GO-E, Opcode, and UQID.][figure_055]
 
+[figure_055]: figures/figure_055.png "Figure 55: G3 - 4 H2D Data Header + H2D Resp"
 
+###### Figure 56. G4 - M2S Req + H2D Data Header
 
-Figure 54. G2 - H2D Req + H2D Data Header + H2D Resp
+![A 16-byte structural mapping table for a packet format allocating bits for MetaField, MetaValue, Tag, Address [51:5], TC, CQID, PRE, Channel, Pool, GO-E, and reserved bits.][figure_056]
 
-![Figure 54: G2 - H2D Req + H2D Data Header + H2D Resp][fig054]
+[figure_056]: figures/figure_056.png "Figure 56: G4 - M2S Req + H2D Data Header"
 
+###### Figure 57. G5 - M2S RwD Header + H2D Resp
 
+![A detailed bit-level layout demonstrating a 16-byte message mapping. Key components packed into this slot include MemOp, MetaValue, Tag, SnpType, Address [51:6], TC, Opcode, UQID, CQID, PRE, and U11.][figure_057]
 
-Figure 55. G3 - 4 H2D Data Header + H2D Resp
-
-![Figure 55: G3 - 4 H2D Data Header + H2D Resp][fig055]
-
-
-
-Figure 56. G4 - M2S Req + H2D Data Header
-
-![Figure 56: G4 - M2S Req + H2D Data Header][fig056]
-
-
-
-Figure 57. G5 - M2S RwD Header + H2D Resp
-
-![Figure 57: G5 - M2S RwD Header + H2D Resp][fig057]
+[figure_057]: figures/figure_057.png "Figure 57: G5 - M2S RwD Header + H2D Resp"
 
 ##### 4.2.3.3 D2H &amp; S2M Formats
 
+###### Figure 58. H0 - D2H Data Header + 2 D2H Resp + S2M NDR
 
+![A detailed table illustrating an overlapping mapping format for a flit, allocating bytes for Type, Ack, BE, Sz, slot indicators, RspCrd, DataCrd, UQID, Opcode, MemOp, MetaField, and Tags.][figure_058]
 
-Figure 58. H0 - D2H Data Header + 2 D2H Resp + S2M NDR
+[figure_058]: figures/figure_058.png "Figure 58: H0 - D2H Data Header + 2 D2H Resp + S2M NDR"
 
-![Figure 58: H0 - D2H Data Header + 2 D2H Resp + S2M NDR][fig058]
+###### Figure 59. H1 - D2H Req + D2H Data Header
 
-Figure 59. H1 - D2H Req + D2H Data Header
+![A detailed diagram displaying a 16-byte slot overlaid with various control bits like Type, Ack, BE, slot flags, ReqCrd/DataCrd, Opcode, CQID, Address [51:6], UQID, Channel, and Pool.][figure_059]
 
-![Figure 59: H1 - D2H Req + D2H Data Header][fig059]
+[figure_059]: figures/figure_059.png "Figure 59: H1 - D2H Req + D2H Data Header"
 
-Figure 60. H2 - 4 D2H Data Header + D2H Resp
+###### Figure 60. H2 - 4 D2H Data Header + D2H Resp
 
-![Figure 60: H2 - 4 D2H Data Header + D2H Resp][fig060]
+![A detailed table of a tightly packed 16-byte slot indicating flit headers and several sets of repeating UQID, Channel, Bg, and Pool attributes alongside an Opcode field.][figure_060]
 
-Figure 61. H3 - S2M DRS Header + S2M NDR
+[figure_060]: figures/figure_060.png "Figure 60: H2 - 4 D2H Data Header + D2H Resp"
 
-![Figure 61: H3 - S2M DRS Header + S2M NDR][fig061]
+###### Figure 61. H3 - S2M DRS Header + S2M NDR
 
-Figure 62. H4 - 2 S2M NDR
+![A comprehensive 16-byte format map featuring generalized Flit headers (Type, Ack, RspCrd, DataCrd) followed by dual sets of MemOp, MetaField, MetaValue, Tag, and Spares spanning the bytes.][figure_061]
 
-![Figure 62: H4 - 2 S2M NDR][fig062]
+[figure_061]: figures/figure_061.png "Figure 61: H3 - S2M DRS Header + S2M NDR"
 
-Figure 63. H5 - 2 S2M DRS
+###### Figure 62. H4 - 2 S2M NDR
 
-![Figure 63: H5 - 2 S2M DRS][fig063]
+![A format mapping over 16 bytes displaying base header properties at the top edge, followed by wide spans allocated for MetaField, MetaValue, Tag, MemOp, and reserved spaces.][figure_062]
 
-Figure 64. G0 - D2H Data
+[figure_062]: figures/figure_062.png "Figure 62: H4 - 2 S2M NDR"
 
-![Figure 64: G0 - D2H Data][fig064]
+###### Figure 63. H5 - 2 S2M DRS
 
-Figure 65. G0 - D2H/S2M Byte Enable
+![A 16-byte tabular diagram showing Flit header bits alongside repeated groupings of MemOp, MetaField, MetaValue, Tag[15:0], Poi, and Spares spanning the message width.][figure_063]
 
-![Figure 65: G0 - D2H/S2M Byte Enable][fig065]
+[figure_063]: figures/figure_063.png "Figure 63: H5 - 2 S2M DRS"
 
-Figure 66. G1 - D2H Req + 2 D2H Resp
+###### Figure 64. G0 - D2H Data
 
-![Figure 66: G1 - D2H Req + 2 D2H Resp][fig066]
+![A simple block diagram representing a 16-byte contiguous array highlighted uniformly in orange, indicating that all bits and bytes form a single Data payload.][figure_064]
 
-Figure 67. G2 - D2H Req + D2H Data Header + D2H Resp
+[figure_064]: figures/figure_064.png "Figure 64: G0 - D2H Data"
 
-![Figure 67: G2 - D2H Req + D2H Data Header + D2H Resp][fig067]
+###### Figure 65. G0 - D2H/S2M Byte Enable
 
-Figure 68. G3 - 4 D2H Data Header
+![A 16-byte table split exactly in half vertically. Bytes 0-7 are colored orange and marked 'BE' (Byte Enable), whereas bytes 8-15 are grey and marked 'RSVD' (Reserved).][figure_065]
 
-![Figure 68: G3 - 4 D2H Data Header][fig068]
+[figure_065]: figures/figure_065.png "Figure 65: G0 - D2H/S2M Byte Enable"
 
-Figure 69. G4 - S2M DRS Header + 2 S2M NDR
+###### Figure 66. G1 - D2H Req + 2 D2H Resp
 
-![Figure 69: G4 - S2M DRS Header + 2 S2M NDR][fig069]
+![A granular mapping format table capturing variables like Opcode, CQID, NT, Address [51:6], UQID, Val, Opcode, and Spares across a 16-byte matrix.][figure_066]
 
-Figure 70. G5 - 3 S2M NDR
+[figure_066]: figures/figure_066.png "Figure 66: G1 - D2H Req + 2 D2H Resp"
 
-![Figure 70: G5 - 3 S2M NDR][fig070]
+###### Figure 67. G2 - D2H Req + D2H Data Header + D2H Resp
 
-Figure 71. G6 - 3 S2M DRS
+![A bit-level field mapping within a 16-byte block, showing Opcode, CQID, NT, Address [51:6], UQID, Channel, Bg, Poi, multiple Spare slices, and reserved endpoints.][figure_067]
 
-![Figure 71: G6 - 3 S2M DRS][fig071]
+[figure_067]: figures/figure_067.png "Figure 67: G2 - D2H Req + D2H Data Header + D2H Resp"
+
+###### Figure 68. G3 - 4 D2H Data Header
+
+![A 16-byte diagram showcasing repeating pairs of UQID, Val, Channel, Bg, and Poi overlapping with large reserved regions at the higher byte indices.][figure_068]
+
+[figure_068]: figures/figure_068.png "Figure 68: G3 - 4 D2H Data Header"
+
+###### Figure 69. G4 - S2M DRS Header + 2 S2M NDR
+
+![A layout table mapping 16 bytes. It details multiple duplicated groups representing MemOp, MetaField, MetaValue, and Tag fields across the width, rounded out by reserved sections.][figure_069]
+
+[figure_069]: figures/figure_069.png "Figure 69: G4 - S2M DRS Header + 2 S2M NDR"
+
+###### Figure 70. G5 - 3 S2M NDR
+
+![A similar 16-byte detailed packet format diagram allocating specific spans to repeating sequences of MemOp, MetaField, MetaValue, Tag, and Spares.][figure_070]
+
+[figure_070]: figures/figure_070.png "Figure 70: G5 - 3 S2M NDR"
+
+###### Figure 71. G6 - 3 S2M DRS
+
+![A detailed 16-byte tabular form capturing pairs of MemOp, MetaField, MetaValue, Tag fields alongside Poi flags separated by generic spares and valid bits.][figure_071]
+
+[figure_071]: figures/figure_071.png "Figure 71: G6 - 3 S2M DRS"
 
 #### 4.2.4 Link Layer Registers
 
@@ -2324,7 +2377,7 @@ H2D Request --&gt; 2 H2D Response --&gt; 4 H2D Data Header --&gt; 4 H2D Data --&
 
 Link Layer Control flits do not follow flow control rules applicable to protocol flits. That is, they can be sent from an entity without any credits. These flits must be processed and consumed by the receiver within the period to transmit a flit on the channel since there are no storage or flow control mechanisms for these flits. The following table lists all the Controls Flits supported by the CXL.cache/CXL.mem link layer.
 
-Table 41. CXL.cache/CXL.mem Link Layer Control Types
+##### Table 41. CXL.cache/CXL.mem Link Layer Control Types
 
 | LLCTRL Type Encoding   | LLCTRLType Name   | Description                                                                                        | Retriable? (Enters the LLRB)   |
 |------------------------|-------------------|----------------------------------------------------------------------------------------------------|--------------------------------|
@@ -2334,7 +2387,7 @@ Table 41. CXL.cache/CXL.mem Link Layer Control Types
 
 A detailed description of the control flits is present below.
 
-Table 42. CXL.cache/CXL.mem Link Layer Control Details (Sheet 1 of 2)
+##### Table 42. CXL.cache/CXL.mem Link Layer Control Details (Sheet 1 of 2)
 
 | Flit Type   |   LLCTRL | SubType   | SubType Description   | Payload   | Payload Description                                                                                              |
 |-------------|----------|-----------|-----------------------|-----------|------------------------------------------------------------------------------------------------------------------|
@@ -2353,7 +2406,7 @@ Table 42. CXL.cache/CXL.mem Link Layer Control Details (Sheet 1 of 2)
 |             |          | 0010      | RETRY.Ack             | 0         | Empty: The Empty indicates that the LLR contains no valid data and therefore the NUM_RETRY value should be reset |
 |             |          |           |                       | 1         | Viral: The Viral bit indicates that the transmitting agent is in a Viral state                                   |
 
-Table 42. CXL.cache/CXL.mem Link Layer Control Details (Sheet 2 of 2)
+##### Table 42. CXL.cache/CXL.mem Link Layer Control Details (Sheet 2 of 2)
 
 |      |      |        |             | 2     | RSVD                                                                                                                                                               |
 |------|------|--------|-------------|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2377,17 +2430,23 @@ Full_Ack = {Acknowledgment[7:4],Ak,Acknowledgment[2:0]}, where the Ak bit is fro
 
 The flit formats for the control flit are illustrated below.
 
-Figure 72. LLCRD Flit Format (Only Slot 0 is Valid. Others are Reserved)
+##### Figure 72. LLCRD Flit Format (Only Slot 0 is Valid. Others are Reserved)
 
-![Figure 72: LLCRD Flit Format (Only Slot 0 is Valid. Others are Reserved)][fig072]
+![A detailed bit layout table representing Link Control messages. Spanning 16 bytes, it details fields like Type, RSVD, Ak, RspCrd, DataCrd, SubType, LLCTRL, 0x0 padding, and a 64-bit Payload.][figure_072]
 
-Figure 73. Retry Flit Format (Only Slot 0 is Valid. Others are Reserved)
+[figure_072]: figures/figure_072.png "Figure 72: LLCRD Flit Format (Only Slot 0 is Valid. Others are Reserved)"
 
-![Figure 73: Retry Flit Format (Only Slot 0 is Valid. Others are Reserved)][fig073]
+##### Figure 73. Retry Flit Format (Only Slot 0 is Valid. Others are Reserved)
 
-Figure 74. Init Flit Format (Only Slot 0 is Valid. Others are Reserved)
+![A 16-byte layout mapping diagram for Link Control lacking Ack bits. It starts with Type and RSVD, moves to SubType, LLCTRL, 0x0 padding, and assigns the latter 8 bytes to Payload.][figure_073]
 
-![Figure 74: Init Flit Format (Only Slot 0 is Valid. Others are Reserved)][fig074]
+[figure_073]: figures/figure_073.png "Figure 73: Retry Flit Format (Only Slot 0 is Valid. Others are Reserved)"
+
+##### Figure 74. Init Flit Format (Only Slot 0 is Valid. Others are Reserved)
+
+![A 16-byte detailed mapping structure for a Link Control flit similar to the previous, designating Type, RSVD, SubType, LLCTRL, zero-padding, and the trailing 64-bit Payload.][figure_074]
+
+[figure_074]: figures/figure_074.png "Figure 74: Init Flit Format (Only Slot 0 is Valid. Others are Reserved)"
 
 Note:
 
@@ -2464,9 +2523,11 @@ To avoid starvation, CXL must still permit Ack forcing (injection of a non-traff
 
 The CXL.cache link layer must accumulate a minimum of 8 Acks to set the ACK bit. If Ack forcing occurred after the accumulation of 8 Acks, it could result in a negative beat pattern where real traffic always arrives soon after a forced Ack, but not long enough after for enough Acks to re-accumulate to set the ACK bit. In the worst case this could double the bandwidth consumption of the CXL.cache side. By waiting for at least16 Acks to accumulate, the CXL.cache/mem link layer ensures that it can still opportunistically return Acks in any real traffic that arrives after a forced Ack return.
 
-Figure 75. Retry Buffer and Related Pointers.
+###### Figure 75. Retry Buffer and Related Pointers.
 
-![Figure 75: Retry Buffer and Related Pointers][fig075]
+![A diagram showing the mechanics of a Retry Queue. It illustrates a circular buffer with Free and Used entries, along with Write Pointers (WrPtr) and Read Pointers (RdPtr), and mentions variables like NumFreeBuf, NumAcks, and Eseq.][figure_075]
+
+[figure_075]: figures/figure_075.png "Figure 75: Retry Buffer and Related Pointers."
 
 ##### 4.2.8.3 LLR Control Flits
 
@@ -2522,7 +2583,7 @@ The local retry state machine also has the three counters described below. The c
 
 Note that the condition of TIMEOUT reaching its threshold is not mutually exclusive with other conditions that cause the LRSM state transitions. Retry.Ack sequences can be assumed to never arrive at the time that the retry requesting device times out and sends a new RETRY.Req sequence (by appropriately setting the value of TIMEOUT - see Section [Section 4.2.8.5.2](#42852-timeout-definition)). If this case occurs, no guarantees are made regarding the behavior of the device (behavior is 'undefined' from a Spec perspective and is not validated from an implementation perspective). Consequently, the LLR Timeout value should not be reduced unless it can be certain this case will not occur. If an error is detected at the same time as TIMEOUT reaches its threshold, then the error on the received flit is ignored, TIMEOUT is taken and a repeat Retry.Req sequence is sent to the remote entity.
 
-Table 44. Local Retry State Transitions (Sheet 1 of 2)
+####### Table 44. Local Retry State Transitions (Sheet 1 of 2)
 
 | Current Local Retry State   | Condition                                                                  | Next Local Retry State   | Actions                                                                                                                                                                                                                                  |
 |-----------------------------|----------------------------------------------------------------------------|--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2538,7 +2599,7 @@ Table 44. Local Retry State Transitions (Sheet 1 of 2)
 | RETRY_LLRREQ                | PHY_RESET/PHY_REINIT detected.                                             | RETRY_PHY_REINIT         | None.                                                                                                                                                                                                                                    |
 | RETRY_LLREQ                 | Error is detected on a received flit                                       | RETRY_LLREQ              | Received flit is discarded.                                                                                                                                                                                                              |
 
-Table 44. Local Retry State Transitions (Sheet 2 of 2)
+####### Table 44. Local Retry State Transitions (Sheet 2 of 2)
 
 | Current Local Retry State   | Condition                                                                                                | Next Local Retry State   | Actions                                                                                                                                |
 |-----------------------------|----------------------------------------------------------------------------------------------------------|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
@@ -2570,7 +2631,7 @@ The remote retry state machine is activated at an entity if a flit sent from tha
 
 The remote retry state machine transitions are described in the table below.
 
-Table 45. Remote Retry State Transition
+####### Table 45. Remote Retry State Transition
 
 | Current Remote Retry State   | Condition                                                        | Next Remote Retry State   |
 |------------------------------|------------------------------------------------------------------|---------------------------|
@@ -2589,11 +2650,11 @@ In order to select the priority of sending flits, the following rules apply:
 
 The overall sequence of replay is shown in Figure 76.
 
+####### Figure 76. CXL.cache/mem Replay Diagram
 
+![A sequence diagram illustrating a Retry Sequence following a CRC error. A corrupted Flit triggers the Local state machine to issue Retry.Req. After idle and Retry.Ack exchanges, the original flit is successfully Replayed.][figure_076]
 
-Figure 76. CXL.cache/mem Replay Diagram
-
-![Figure 76: CXL.cache/mem Replay Diagram][fig076]
+[figure_076]: figures/figure_076.png "Figure 76: CXL.cache/mem Replay Diagram"
 
 ##### 4.2.8.6 Interaction with Physical Layer Reset or Reinitialization
 
@@ -2626,9 +2687,11 @@ Below are the 384 bit data masks for use with an XOR tree to produce the 16 CRC 
 
 The Flit Data Mask for the 16 CRC bits is located in the table below.
 
-###### Figure 77. CRC Data Mask for 527 bit Flit
+####### Figure 77. CRC Data Mask for 527 bit Flit
 
-![Figure 77: CRC Data Mask for 527 bit Flit][fig077]
+![A dense technical table logging exact 16-bit CRC payload values computed across various 32-bit flit boundaries from bit 527 down to bit 0. It sequentially defines equations for CRC15 through CRC00 over these offsets.][figure_077]
+
+[figure_077]: figures/figure_077.png "Figure 77: CRC Data Mask for 527 bit Flit"
 
 #### 4.2.9 CXL.cache-Side Poison and Viral
 
@@ -2642,9 +2705,11 @@ There are two primary benefits to this methodology. First, by using the LLR.Ack 
 
 The figure below shows where the CXL ARB/MUX exists in the Flex Bus layered hierarchy. The ARB/MUX provides dynamic muxing of the CXL.io and CXL.cache/ CXL.mem link layer control and data signals to interface with the Flex Bus physical layer.
 
-Figure 78. Flex Bus Layers -- CXL ARB/MUX Highlighted
+### Figure 78. Flex Bus Layers -- CXL ARB/MUX Highlighted
 
-![Figure 78: Flex Bus Layers -- CXL ARB/MUX Highlighted][fig078]
+![A block diagram mapping the protocol layers. The CXL Transaction Layer and Link Layer sit atop a CXL ARB/MUX, which communicates down to the Flex Bus Physical Layer. The diagram splits PCIe/CXL.io elements from CXL.cache + CXL.mem elements.][figure_078]
+
+[figure_078]: figures/figure_078.png "Figure 78: Title not found"
 
 In the transmit direction, the ARB/MUX arbitrates between requests from the CXL link layers and multiplexes the data. It also processes power state transition requests from the link layers: resolving them to a single request to forward to the physical layer, maintaining virtual link state machines (vLSMs) for each link layer interface, and generating ARB/MUX link management packets (ALMPs) to communicate the power state transition requests across the link on behalf of each link layer. Please refer to [Section 9.4](#94-compute-express-link-power-management), [Section 9.5](#95-cxlio-link-power-management), and [Section 9.6](#96-cxlcache-cxlmem-link-power-management) for more details on how the ALMPs are utilized in the overall flow for power state transitions. In PCIe mode or single protocol mode, the ARB/MUX is bypassed, and thus ALMP generation by the ARB/MUX is disabled.
 
@@ -2654,7 +2719,7 @@ In the receive direction, the ARB/MUX determines the protocol associated with th
 
 The ARB/MUX maintains vLSMs for each CXL link layer it interfaces with, transitioning the state based on power state transition requests it receives from the local link layer or from the remote ARB/MUX on behalf of a remote link layer. Table 46 below lists the different possible states for the vLSMs. PM States and Retrain are virtual states that can differ across interfaces (CXL.io and CXL.cache and CXL.mem), however all other states such as LinkReset, LinkDisable and LinkError are forwarded to the Link Layer and are therefore synchronized across interfaces.
 
-Table 46. Virtual LSM States Maintained Per Link Layer Interface
+#### Table 46. Virtual LSM States Maintained Per Link Layer Interface
 
 | Virtual LSM State   | Description                                                                                  |
 |---------------------|----------------------------------------------------------------------------------------------|
@@ -2679,7 +2744,7 @@ Note:
 
 The ARB/MUX looks at the status of each vLSM to resolve to a single state request to forward to the physical layer as specified in Table 47. For Example if current vLSM[0] state is L1.1 (row = L1.1) and current vLSM[1] state is Active (column = Active), then the resolved request from the ARB/MUX to the Physical layer will be Active.
 
-Table 47. ARB/MUX Multiple Virtual LSM Resolution Table
+#### Table 47. ARB/MUX Multiple Virtual LSM Resolution Table
 
 | Resolved Request from ARB/MUX to Flex Bus Physical Layer (Row = current vLSM[0] state; Column = current vLSM[1] state)   | Reset    | Active   | L1.1   | L1.2   | L1.3   | L1.4   | SLEEP_L2   |
 |--------------------------------------------------------------------------------------------------------------------------|----------|----------|--------|--------|--------|--------|------------|
@@ -2735,9 +2800,11 @@ The ALMP protocol required for the entry to active consists of 4 ALMP exchanges 
 
 Once all four ALMPs are received, the vLSM states transition to Active State.
 
-Figure 79. Entry to Active Protocol Exchange
+###### Figure 79. Entry to Active Protocol Exchange
 
-![Figure 79: Entry to Active Protocol Exchange][fig079]
+![A sequence diagram demonstrating ALMP state synchronization between a vLSM and Host/Device LTSSMs. It shows STATE_REQ and STATE_STS ALMP messages being passed to align their statuses.][figure_079]
+
+[figure_079]: figures/figure_079.png "Figure 79: Entry to Active Protocol Exchange"
 
 ##### 5.1.1.3 Status Synchronization Protocol
 
@@ -2745,7 +2812,9 @@ As a part of Recovery, all active vLSMs transition into the Retrain state. A Sta
 
 ###### Figure 80. Status Synchronization
 
-![Figure 80: Status Synchronization][fig080]
+![A sequence diagram portraying a Recovery Exit event. Notification of Recovery Exit triggers the Host and Device LTSSMs to send STATE_STS ALMPs to synchronize the associated Link State Machines with the previous state.][figure_080]
+
+[figure_080]: figures/figure_080.png "Figure 80: Status Synchronization"
 
 ##### 5.1.1.4 State Request ALMP
 
@@ -2760,11 +2829,11 @@ The following rules apply for sending a State Request ALMP. A State Request ALMP
 
 Figure 81 shows an example of entry into the Active state. The flows in Figure 81 show four independent actions (ALMP handshakes) that may not necessarily happen in the order or small time-frame shown. The vLSM transmitter and receiver may become active independently. Both transmitter and receiver must be active before the vLSM state is Active. The transmitter becomes active after a vLSM has transmitted and received Status ALMP{Active}. The receiver becomes active after a vLSM receives a Request ALMP{Active} and sends a Status ALMP{Active} in return.
 
+####### Figure 81. CXL Entry to Active Flow
 
+![A complex sequence diagram mapping vLSM initialization during normal operation. It outlines the back-and-forth ALMP {ACTIVE} STATE_REQ and STATE_STS exchanges required to transition LSM[0] and LSM[1] on both ends into the Active state.][figure_081]
 
-Figure 81. CXL Entry to Active Flow
-
-![Figure 81: CXL Entry to Active Flow][fig081]
+[figure_081]: figures/figure_081.png "Figure 81: CXL Entry to Active Flow"
 
 ###### 5.1.1.4.2 For Entry into PM State (L1/L2)
 
@@ -2773,9 +2842,11 @@ Figure 81. CXL Entry to Active Flow
 
 Figure 82 shows an example of Entry to PM State (L1) initiated by the device side ARB/ MUX. Each vLSM will be ready to enter L1 State once the vLSM has sent a Request ALMP{L1} and received a Status ALMP{L1} in return or the vLSM has received a Request ALMP{L1} and sent a Status ALMP{L1} in return. The vLSMs operate independently and actions may not complete in the order or the timeframe shown. Once all vLSMs are ready to enter PM State (L1), the Channel will complete EIOS exchange and enter L1.
 
-Figure 82. CXL Entry to PM State
+####### Figure 82. CXL Entry to PM State
 
-![Figure 82: CXL Entry to PM State][fig082]
+![A sequence diagram detailing the L1 Entry process. Both LSMs signal intent, receiving an 'Ok to go to L1' instruction. The Host LTSSM then sends an Electrical Idle Ordered Set (EIOS) to the Device LTSSM to enter the L1 link state.][figure_082]
+
+[figure_082]: figures/figure_082.png "Figure 82: CXL Entry to PM State"
 
 ##### 5.1.1.5 State Status ALMP
 
@@ -2790,29 +2861,29 @@ Figure 82. CXL Entry to PM State
 
 Figure 83 shows a general example of Recovery exit. The state sent in the State Status ALMP exchange is the state of the vLSM prior to it going into the Retrain state.
 
+####### Figure 83. CXL Recovery Exit Flow
 
+![A sequence diagram illustrating a Retrain event triggered from Recovery State. Recovery exit notifications force all Host and Device LSMs to Retrain, while ALMP STATE_STS messages synchronize their states before resuming Normal Operation.][figure_083]
 
-Figure 83. CXL Recovery Exit Flow
-
-![Figure 83: CXL Recovery Exit Flow][fig083]
+[figure_083]: figures/figure_083.png "Figure 83: CXL Recovery Exit Flow"
 
 On Exit from Recovery, the vLSMs on either side of the channel will send a Status ALMP in order to synchronize the LSMs. The Status ALMP will provide the state of the vLSM prior to it entering Retrain. The Status ALMPs for synchronization may trigger a State Request ALMP if the provided state and the requested state are not the same, as seen in Figure 84. The ALMP for synchronization may trigger a re-entry to recovery if the vLSMs on either side of the channel are not in the same state out of Retrain, as seen in Figure 85. If the provided states from both vLSMs are the same as the requested state prior to the Recovery, the vLSMs are considered synchronized and will continue normal operation, see figure Figure 83.
 
 Figure 84 shows an example of the exit from a PM State (L1) through Recovery. The Host LSM[0] in L1 state receives the Active Request, and the link enters Recovery. After the exit from recovery, each vLSM sends Status ALMP{L1} (State of the vLSM before Recovery entry) to synchronize the vLSMs. Because the state in the Status ALMP for synchronization is not equal to the requested state that triggered the entry to recovery, Request ALMP{Active} and Status ALMP{Active} handshakes are completed to enter Active State.
 
+####### Figure 84. CXL Exit from PM State
 
+![A detailed sequence diagram outlining the complex transition from L1 Idle through a Recovery State and back to L0. It tracks how state synchronization propagates via ALMP messages to retrain and reactivate LSM[0] and LSM[1].][figure_084]
 
-Figure 84. CXL Exit from PM State
-
-![Figure 84: CXL Exit from PM State][fig084]
+[figure_084]: figures/figure_084.png "Figure 84: CXL Exit from PM State"
 
 Figure 85 shows an example of error in the Recovery flow. The error shown is one example of how an error may occur where the device does not properly receive the request to go to Retrain and therefore remains in Active. On indication of exit from Recovery from the LTSSM the Host LSMs send Status ALMP{Active} to synchronize vLSM across the Channel. Since the Device side received Status ALMP{Active} without first sending a Request ALMP or being in Retrain State, the Device LSM requests the Physical Layer to enter recovery. Recovery flow is then entered by both Host and Device and exited and synchronized correctly.
 
+####### Figure 85. CXL Recovery Error Flow
 
+![A sequence diagram similar to the previous, focusing on multiple recovery notifications triggering sequential retrains for Host and Device LSMs during a transition into L0, heavily relying on STATE_STS synching.][figure_085]
 
-Figure 85. CXL Recovery Error Flow
-
-![Figure 85: CXL Recovery Error Flow][fig085]
+[figure_085]: figures/figure_085.png "Figure 85: CXL Recovery Error Flow"
 
 ##### 5.1.1.6 Unexpected ALMPs
 
@@ -2827,15 +2898,15 @@ The ARB/MUX uses ALMPs to communicate virtual link state transition requests and
 
 An ALMP is a 1DW packet with format shown in Figure 86 below. The message code used in Byte 1 of the ALMP is 0000_1000b. This 1DW packet is replicated four times on the lower 16-bytes of a 528-bit flit to provide data integrity protection; the flit is zero padded on the upper bits. If the ARB/MUX detects an error in the ALMP, it initiates a retrain of the link.
 
+#### Figure 86. ARB/MUX Link Management Packet Format
 
+![A structural map of the a 4-byte ALMP Message format. Byte 0 is labeled Reserved, Byte 1 specifies the Message type, and Bytes 2 and 3 are designated for Message Specific content.][figure_086]
 
-Figure 86. ARB/MUX Link Management Packet Format
-
-![Figure 86: ARB/MUX Link Management Packet Format][fig086]
+[figure_086]: figures/figure_086.png "Figure 86: Title not found"
 
 Bytes 2 and 3 of the ALMP packet is as shown in Table 49 below. ALMPs can be request or status type. The local ARB/MUX initiates transition of a remote vLSM using a request ALMP. After receiving a request ALMP, the local ARB/MUX processes the transition request and returns a status ALMP to indicate that the transition has occurred. If the transition request is not accepted, no status ALMP is sent and both local and remote vLSMs remain in their current state.
 
-Table 49. ALMP Byte 2 and Byte 3 Encoding
+#### Table 49. ALMP Byte 2 and Byte 3 Encoding
 
 | Byte2 Bit   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2858,9 +2929,11 @@ The ARB/MUX is responsible for arbitrating between requests from the CXL link la
 
 ### 6.1 Overview
 
-Figure 87. Flex Bus Layers -- Physical Layer Highlighted
+#### Figure 87. Flex Bus Layers -- Physical Layer Highlighted
 
-![Figure 87: Flex Bus Layers -- Physical Layer Highlighted][fig087]
+![A block diagram matching the earlier CXL protocol layer map. The Transaction Layer and Link Layer sit above the ARB/MUX. In this version, the Flex Bus Physical Layer block at the bottom is highlighted in an orange tone.][figure_087]
+
+[figure_087]: figures/figure_087.png "Figure 87: Title not found"
 
 The figure above shows where the Flex Bus physical layer exists in the Flex Bus layered hierarchy. On the transmit side, the Flex Bus physical layer prepares data received from either the PCIe link layer or the CXL link layer for transmission across the Flex Bus link.
 
@@ -2931,29 +3004,37 @@ Please refer to [Section 6.2.9](#629-framing-errors) for additional details abou
 
 Figure 88 below shows the x16 packet layout. First, the 16-bits of protocol ID are transferred, split on an 8-bit granularity across consecutive lanes; this is followed by transfer of the 528-bit flit, striped across the lanes on an 8-bit granularity. Depending on the symbol time, as labeled on the leftmost column in the figure, the Protocol ID plus flit transfer may start on lane 0, lane 4, lane 8, or lane 12. The pattern of transfer repeats after every 17 symbol times. The two-bit sync header shown in the figure, inserted after every 128 bits transferred per lane, is not present for the latency optimized mode where sync header bypass is negotiated.
 
-Figure 88. Flex Bus x16 Packet Layout
+##### Figure 88. Flex Bus x16 Packet Layout
 
-![Figure 88: Flex Bus x16 Packet Layout][fig088]
+![A 256-Bit Data Transfer Format map detailing data scattered across Lanes L0-L15. It highlights 16 symbols filled progressively with Flit[X:Y] arrays and identifies yellow Protocol ID marker positions embedded within the Sync Headers and symbols.][figure_088]
+
+[figure_088]: figures/figure_088.png "Figure 88: Flex Bus x16 Packet Layout"
 
 Figure 89 provides an example where CXL.io and CXL.cache/CXL.mem traffic is interleaved with an interleave granularity of two flits on a x16 link. The top figure shows what the CXL.io stream looks like before mapping to the Flex Bus lanes and before interleaving with CXL.cache/CXL.mem traffic; the framing rules follow the x16 framing rules specified in the PCI Express specification, as stated in [Section 4.1](#41-cxlio-link-layer). The bottom figure shows the final result when the two streams are interleaved on the Flex Bus lanes. For CXL.io flits, after transferring the 16-bit protocol ID, 512 bits are used to transfer CXL.io traffic and 16 bits are unused. For CXL.cachemem flits, after transferring the 16-bit protocol ID, 528 bits are used to transfer a CXL.cachemem flit. Please refer to Chapter 4.0, 'Compute Express Link Link Layers' for more details on the flit format. As this example illustrates, the PCIe TLPs and DLLPs encapsulated within the CXL.io stream may be interrupted by non-related CXL traffic if they cross a flit boundary.
 
-Figure 89. Flex Bus x16 Protocol Interleaving Example
+##### Figure 89. Flex Bus x16 Protocol Interleaving Example
 
-![Figure 89: Flex Bus x16 Protocol Interleaving Example][fig089]
+![A massive, twin 256-Bit Data Transfer diagram tracking 16 Lanes. It depicts heavy multiplexing where standard PCIe TLP payloads are interleaved with CXL.cachemem data across the lanes, guided by corresponding CXL.io Protocol ID headers.][figure_089]
+
+[figure_089]: figures/figure_089.png "Figure 89: Flex Bus x16 Protocol Interleaving Example"
 
 #### 6.2.4 x8 Packet Layout
 
 Figure 90 below shows the x8 packet layout. 16-bits of Protocol ID followed by a 528bit flit are striped across the lanes on an 8-bit granularity. Depending on the symbol time, the Protocol ID plus flit transfer may start on lane 0 or lane 4. The pattern of transfer repeats after every 17 symbols. The two-bit sync header shown in the figure is not present for the latency optimized mode.
 
-Figure 90. Flex Bus x8 Packet Layout
+##### Figure 90. Flex Bus x8 Packet Layout
 
-![Figure 90: Flex Bus x8 Packet Layout][fig090]
+![A 128-Bit Data Transfer Format table covering an x8 link (Lanes L0-L7). It shows how Flit[X:Y] sequences map systematically onto 16 Symbols following Sync Headers, with the initial Protocol ID bytes marked in yellow.][figure_090]
+
+[figure_090]: figures/figure_090.png "Figure 90: Flex Bus x8 Packet Layout"
 
 Figure 91 illustrates how CXL.io and CXL.cache/CXL.mem traffic is interleaved on a x8 Flex Bus link. The same traffic from the x16 example in Figure 89 is mapped to a x8 link.
 
-Figure 91. Flex Bus x8 Protocol Interleaving Example
+##### Figure 91. Flex Bus x8 Protocol Interleaving Example
 
-![Figure 91: Flex Bus x8 Protocol Interleaving Example][fig091]
+![A 128-Bit Data Transfer map mapping multiplexed lane activity across 8 Lanes. The diagram shows PCIe TLP header and Data payload components interleaved meticulously with CXL.cachemem flits and defined by alternating Protocol IDs.][figure_091]
+
+[figure_091]: figures/figure_091.png "Figure 91: Flex Bus x8 Protocol Interleaving Example"
 
 #### 6.2.5 x4 Packet Layout
 
@@ -2961,7 +3042,9 @@ Figure 91. Flex Bus x8 Protocol Interleaving Example
 
 ##### Figure 92. Flex Bus x4 Packet Layout
 
-![Figure 92: Flex Bus x4 Packet Layout][fig092]
+![A 64-Bit Data Transfer Format table illustrating data spanning just 4 Lanes (L0-L3). Flit[X:Y] blocks are densely stacked across 16 regular symbols directly underneath Sync Headers, starting with yellow Protocol ID labels.][figure_092]
+
+[figure_092]: figures/figure_092.png "Figure 92: Flex Bus x4 Packet Layout"
 
 #### 6.2.6 x2 Packet Layout
 
@@ -2975,9 +3058,11 @@ The x1 packet layout is used only in degraded mode. The 16-bits of Protocol ID f
 
 For CXL.io traffic, if a TLP ends on a flit boundary and there is no additional CXL.io traffic to send, the receiver still requires a subsequent EDB indication if it is a nullified TLP or all IDLE flit to confirm it is a good TLP before processing the TLP. Figure 93 illustrates a scenario where the first CXL.io flit encapsulates a TLP that ends at the flit boundary, and the transmitter has no more TLPs or DLLPs to send. To ensure that the transmitted TLP that ended on the flit boundary is processed by the receiver, a subsequent CXL.io flit containing PCIe IDLE tokens is transmitted; this flit is generated by the link layer.
 
-Figure 93. CXL.io TLP Ending on Flit Boundary Example
+##### Figure 93. CXL.io TLP Ending on Flit Boundary Example
 
-![Figure 93: CXL.io TLP Ending on Flit Boundary Example][fig093]
+![A 64-Bit Data Transfer mapping format showing a multiplexed configuration on 4 Lanes. It demonstrates complex interleaving across 16 symbols, inserting PCIe TLP payloads alongside standard CXL.cachemem flits marked by specific identifiers.][figure_093]
+
+[figure_093]: figures/figure_093.png "Figure 93: CXL.io TLP Ending on Flit Boundary Example"
 
 #### 6.2.9 Framing Errors
 
@@ -3040,14 +3125,14 @@ Please refer to the PCIe 5.0 base specification for details on how the various f
 1. Retimer1 is equivalent to Retimer X or Retimer Z in the PCI Express Specification
 2. Retimer2 is equivalent to Retimer Y in the PCI Express Specification
 
-###### Table 54. Additional Information on Symbols 8-9 of Modifed TS1/TS2 Ordered Set
+### Table 54. Additional Information on Symbols 8-9 of Modifed TS1/TS2 Ordered Set
 
 | Bit Field in Symbols 8-9   | Description                                                                                                                                                                                   |
 |----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Alternate Protocol ID[2:0] | This is set to 3'd0 to indicate Flex Bus                                                                                                                                                      |
 | Common Clock               | The CPU uses this bit to communicate to retimers that there is a common reference clock. Depending on implementation, retimers may use this information to determine what features to enable. |
 
-###### Table 55. Additional Information on Symbols 12-14 of Modified TS1/TS2 Ordered Sets (Sheet 1 of 2)
+### Table 55. Additional Information on Symbols 12-14 of Modified TS1/TS2 Ordered Sets (Sheet 1 of 2)
 
 | Bit Field in Symbols 12-14   | Description                                                                                                                   |
 |------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
@@ -3081,11 +3166,11 @@ Note: If CXL is negotiated but the link does not achieve a speed of at least 8GT
 
 A  describing the mode negotiation process during link training is provided in the figure below. Note, while this  represents the flow for several scenarios, it is not intended to cover all possible scenarios.
 
+### Figure 94. Flex Bus Mode Negotiation During Link Training (Sample Flow)
 
+![A flowchart outlining the Link Training sequence. It determines whether to continue training as standard PCIe Gen1 or branch off and enable Flex Bus.CXL mode depending on capability advertisements in Modified TS1/TS2 Ordered Sets.][figure_094]
 
-Figure 94. Flex Bus Mode Negotiation During Link Training (Sample Flow)
-
-![Figure 94: Flex Bus Mode Negotiation During Link Training (Sample Flow)][fig094]
+[figure_094]: figures/figure_094.png "Figure 94: Title not found"
 
 ##### 6.3.1.2 Flex Bus.CXL Negotiation with Maximum Supported Link Speed of 8GT/s or 16GT/s
 
@@ -3133,7 +3218,7 @@ When the sync hdr bypass optimization is enabled, retimers rely on the above mec
 
 The Compute Express Link device control and status registers are mapped into separate spaces:  configuration space and memory mapped  space.  Configuration space registers are accessed using configuration reads and configuration writes. Memory mapped registers are accessed using memory reads and memory writes. Table 57 has a list of the attributes for the register bits defined in this chapter.
 
-Table 57. Register Attributes
+### Table 57. Register Attributes
 
 | Attribute   | Description                    |
 |-------------|--------------------------------|
@@ -3155,13 +3240,15 @@ CXL device creates a new PCIe enumeration hierarchy. As such, it spawns a new Ro
 
 Please refer to the PCIe Specification for a description of the standard DVSEC register fields.
 
-Figure 95. PCIe DVSEC for Flex Bus Device
+##### Figure 95. PCIe DVSEC for Flex Bus Device
 
-![Figure 95: PCIe DVSEC for Flex Bus Device][fig095]
+![A tabular layout of the CXL DVSEC (Designated Vendor-Specific Extended Capability) mapping for a Flex Bus Port. It illustrates the placement of specific capability, status, control, and range base/size headers across byte offsets 00h through 34h.][figure_095]
+
+[figure_095]: figures/figure_095.png "Figure 95: PCIe DVSEC for Flex Bus Device"
 
 To advertise Flex Bus capability, the standard DVSEC register fields should be set to the values shown in the table below. The DVSEC Length field is set to 16 bytes to accommodate the Flex Bus registers included in the DVSEC. The DVSEC ID is set to 0x0 to advertise that this is an Flex Bus feature capability structure.
 
-Table 58. PCI Express DVSEC Register Settings for Flex Bus Device
+##### Table 58. PCI Express DVSEC Register Settings for Flex Bus Device
 
 | Register                                         | Bit Location   | Field           | Value    |
 |--------------------------------------------------|----------------|-----------------|----------|
@@ -3317,9 +3404,11 @@ The four memory mapped register regions appear in memory space as shown in Figur
 | CXL Downstream Port MEMBAR0 | This memory region hosts registers that allow software to configure CXL downstream port subsystem components, such as the CXL protocol, link, and physical layers and the CXL ARB/MUX.                                      | The location of this region is specified by a 64-bit MEMBAR0 register located at offset 0x10 and 0x14 of the downstream port's RCRB.                                                                                                                                                                                                                                                               |
 | CXL Upstream Port MEMBAR0   | This memory region hosts registers that allow software to configure CXL upstream port subsystem components, such as CXL protocol, link, and physical layers and the CXL ARB/MUX.                                            | The location of this region is specified by a 64-bit MEMBAR0 register located at offset 0x10 and 0x14 of the upstream port's RCRB. This MBAR0 region is located within the range specified by the downstream port's memory base/ limit registers.                                                                                                                                                  |
 
-Figure 96. CXL Memory Mapped Register Regions
+##### Figure 96. CXL Memory Mapped Register Regions
 
-![Figure 96: CXL Memory Mapped Register Regions][fig096]
+![A diagram displaying the CXL memory mapping layout relative to Address 0. It details the CXL Downstream and Upstream Port RCRB 4K Regions, marking a CXL DP Memory Base/Limit range that includes the CXL Upstream Port MEMBAR0 and Downstream Port MEMBAR0.][figure_096]
+
+[figure_096]: figures/figure_096.png "Figure 96: CXL Memory Mapped Register Regions"
 
 #### 7.2.1 Upstream and Downstream Port Registers
 
@@ -3329,7 +3418,9 @@ The downstream port RCRB is a 4K memory region that contains registers based upo
 
 ###### Figure 97. CXL Downstream Port RCRB
 
-![Figure 97: CXL Downstream Port RCRB][fig097]
+![A detailed byte-offset map of the PCIe Type 1 Configuration Header registers. It identifies header properties like Vendor ID, Command, Status, Header Type, MEMBAR0 at offset 10h, and outlines where supported capability registers fit.][figure_097]
+
+[figure_097]: figures/figure_097.png "Figure 97: CXL Downstream Port RCRB"
 
 ###### Table 60. CXL Downstream Port Supported PCIe Capabilities and Extended Capabilities (Sheet 1 of 2)
 
@@ -3355,7 +3446,9 @@ The upstream port RCRB is a 4K memory region that contains registers based upon 
 
 ###### Figure 98. CXL Upstream Port RCRB
 
-![Figure 98: CXL Upstream Port RCRB][fig098]
+![A byte-offset diagram of the PCIe Type 0 Configuration Header registers. Compared to Type 1, this layout shows substantial reserved space following the standard headers and MEMBAR0 location.][figure_098]
+
+[figure_098]: figures/figure_098.png "Figure 98: CXL Upstream Port RCRB"
 
 ###### Table 61. CXL Upstream Port Supported PCIe Capabilities and Extended Capabilities
 
@@ -3373,7 +3466,9 @@ The upstream and downstream Flex Bus ports implement a Flex Bus Port DVSEC, whic
 
 ###### Figure 99. PCIe DVSEC for Flex Bus Port
 
-![Figure 99: PCIe DVSEC for Flex Bus Port][fig099]
+![A smaller DVSEC table layout highlighting just the CXL DVSEC mapping for a Flexbus Port. It shows the capability, status, and control blocks fitted into byte offsets 00h to 0Ch.][figure_099]
+
+[figure_099]: figures/figure_099.png "Figure 99: PCIe DVSEC for Flex Bus Port"
 
 ###### Table 62. PCI Express DVSEC Header Registers Settings for Flex Bus Port
 
@@ -3435,7 +3530,7 @@ The Mem_Capable, IO_Capable, and Cache_Capable fields are also present in the Fl
 
 The CXL upstream and downstream port subsystem components implement registers in memory space allocated via the MEMBAR0 register. In general, these registers are expected to be implementation specific; this section defines the architected registers. Table 63 lists the relevant offset ranges from MEMBAR0 for CXL.io, CXL.cache, CXL.mem, and CXL ARB/MUX registers.
 
-Table 63. CXL Subsystem Component Register Ranges in MEMBAR0
+##### Table 63. CXL Subsystem Component Register Ranges in MEMBAR0
 
 | Range                   | Size   | Destination                     |
 |-------------------------|--------|---------------------------------|
@@ -3449,7 +3544,7 @@ Table 63. CXL Subsystem Component Register Ranges in MEMBAR0
 
 Within the 4KB region of memory space assigned to CXL.cache and CXL.mem, the location of architecturally specified registers will be described using an array of pointers. The array, described in Table 64, will be located starting at offset 0x0 of this 4KB region. The first element of the array will declare the version of CXL.cache and CXL.mem protocol as well as the size of the array. Each subsequent element will then host the pointers to capability specific register blocks within the 4KB region.
 
-Table 64. CXL.cache and CXL.mem Architectural Registers
+###### Table 64. CXL.cache and CXL.mem Architectural Registers
 
 | Offset   | Register Name                  |
 |----------|--------------------------------|
@@ -3719,8 +3814,6 @@ A register is required to communicate to software the memory address location of
 | 12:1  | N/A          | Reserved (RSVD).                                                                                                                                           |
 | 63:13 | RW           | CXL_RCRB_Base_Address: This points to an 8K memory region where the lower 4K hosts the downstream port RCRB and the upper 4K hosts the upstream port RCRB. |
 
-
-
 ## 8.0 Reset, Initialization, Configuration and Manageability
 
 ### 8.1 Compute Express Link Boot and Reset Overview
@@ -3772,11 +3865,11 @@ Host issues a CXL PM VDM defined as ResetPrep (ResetType = Warm Reset; PrepType 
 
 Note: CXL device may or may not have PERST# asserted after warm reset handshake. If PERST# is asserted, CXL device should clear any sticky content internal to the device.
 
+#### Figure 100. CXL Device Warm Reset Entry Flow
 
+![A sequence diagram showing a Host initiating a Warm Reset via a CXL PM VDM PM2IP message. The CXL interface acknowledges it with an IP2PM VDM message matching the Warm Reset type.][figure_100]
 
-Figure 100. CXL Device Warm Reset Entry Flow
-
-![Figure 100: CXL Device Warm Reset Entry Flow][fig100]
+[figure_100]: figures/figure_100.png "Figure 100: Title not found"
 
 ### 8.4 Compute Express Link Device Cold Reset Entry Flow
 
@@ -3792,33 +3885,25 @@ CXL device flushes any relevant context to the host (if any), cleans up the data
 
 CXL device will have PERST# asserted after warm reset handshake on a Cold Reset. On PERST# assertion, CXL device should clear any sticky content internal to the device.
 
-Figure 101. CXL Device Cold Reset Entry Flow
+#### Figure 101. CXL Device Cold Reset Entry Flow
 
-CXLPMVDM
+![A sequence diagram mapping a Warm Reset transaction similar to the previous diagram, but followed by a PERST# Assertion signal broadcasted from the Host down to the CXL interface.][figure_101]
 
-
-
-![Figure 101: CXL Device Cold Reset Entry Flow][fig101]
+[figure_101]: figures/figure_101.png "Figure 101: Title not found"
 
 ### 8.5 Compute Express Link Device Sleep State Entry Flow
 
-Note:
+Note: Since OS is the orchestrator of Sx flows always, it is expected that the CXL devices are already in D3 state with their contexts flushed to the CPU-attached or CXL-attached memory before the platform Sx flow is triggered.
 
-Since OS is the orchestrator of Sx flows always, it is expected that the CXL devices are already in D3 state with their contexts flushed to the CPU-attached or CXL-attached memory before the platform Sx flow is triggered.
+Note: The host issues a CXL PM VDM defined as ResetPrep (ResetType = S3/S4/S5; PrepType = General Prep) to the CXL device as specified in [Table 3](#table-3-cxl-power-management-messages-data-payload-fields-definitions). CXL device flushes any relevant context to the host (if any), cleans up the data serving the host and puts any CXL device connected memory into self-refresh. CXL device takes any additional steps for the CXL host to initiate a L23 flow. After all the Warm reset preparation is completed, the CXL device will issue a CXL PM VDM defined as ResetPrepAck (ResetType = S3/S4/S5; PrepType = General Prep) to the CXL device as specified in [Table 3](#table-3-cxl-power-management-messages-data-payload-fields-definitions). PERST# to the CXL device can be asserted any time after this handshake is completed. On PERST# assertion, CXL device should clear any sticky content internal to the device.
 
-Note:
+Note: PERST# will always be asserted for CXL Sx Entry flows.
 
-Note:
+#### Figure 102. CXL Device Sleep State Entry Flow
 
-The host issues a CXL PM VDM defined as ResetPrep (ResetType = S3/S4/S5; PrepType = General Prep) to the CXL device as specified in [Table 3](#table-3-cxl-power-management-messages-data-payload-fields-definitions). CXL device flushes any relevant context to the host (if any), cleans up the data serving the host and puts any CXL device connected memory into self-refresh. CXL device takes any additional steps for the CXL host to initiate a L23 flow. After all the Warm reset preparation is completed, the CXL device will issue a CXL PM VDM defined as ResetPrepAck (ResetType = S3/S4/S5; PrepType = General Prep) to the CXL device as specified in [Table 3](#table-3-cxl-power-management-messages-data-payload-fields-definitions). PERST# to the CXL device can be asserted any time after this handshake is completed. On PERST# assertion, CXL device should clear any sticky content internal to the device.
+![A sequence diagram detailing an Sx state transition. The Host sends an Sx type CXL PM VDM PM2IP message, receives acknowledgment, and triggers a PERST# Assertion event.][figure_102]
 
-PERST# will always be asserted for CXL Sx Entry flows.
-
-
-
-Figure 102. CXL Device Sleep State Entry Flow
-
-![Figure 102: CXL Device Sleep State Entry Flow][fig102]
+[figure_102]: figures/figure_102.png "Figure 102: Title not found"
 
 ### 8.6 Function Level Reset (FLR)
 
@@ -3848,9 +3933,9 @@ CXL endpoints report 'PCIe' interface errors to OS via Root Complex Event Collec
 
 ##### Figure 103. PCIe Software View
 
+![A system block diagram depicting a CPU connected sequentially to an Accelerator via a Flex Bus. The path flows from a non-enumerable CXL Downstream Port to a CXL Upstream Port, exposing RCiEP elements hosting a CXL DVSEC block.][figure_103]
 
-
-![Figure 103: PCIe Software View][fig103]
+[figure_103]: figures/figure_103.png "Figure 103: PCIe Software View"
 
 Since the CXL link is not exposed to OS, the BIOS view of the hierarchy is different than that of the OS.
 
@@ -3934,11 +4019,11 @@ Legacy OS or legacy PCIe bus driver is not made aware of CXL.cache capability. T
 
 #### 8.9.1 Single CPU Topology
 
+##### Figure 104. One CPU Connected to One Accelerator Via Two Flex Bus Links
 
+![A system block diagram illustrating a CPU's Home Agent and Coherency Bridge connected via two non-enumerable CXL Downstream Ports. They link to dual CXL Upstream Ports inside an Accelerator, sharing a central Memory Controller and connecting down to specific RCiEP/DVSEC endpoints.][figure_104]
 
-Figure 104. One CPU Connected to One Accelerator Via Two Flex Bus Links
-
-![Figure 104: One CPU Connected to One Accelerator Via Two Flex Bus Links][fig104]
+[figure_104]: figures/figure_104.png "Figure 104: One CPU Connected to One Accelerator Via Two Flex Bus Links"
 
 In this configuration, BIOS shall report two PCI root bridges to the Operating system, one that hosts the left Device 0, Function 0 and the second one that hosts the Device 0, function 0 on the right. Both Device 0, function 0 instances implement Flex Bus DVSEC and a Device Serial Number PCIe Extended Capability. A vendor ID and serial number match indicates that the two links are connected to a single accelerator and this enables BIOS to perform certain optimizations.
 
@@ -3946,7 +4031,7 @@ In some cases, the accelerator may expose a single accelerator function that is 
 
 The BIOS maps the HDM into system address space using the following rules.
 
-Table 67. Memory Decode rules in presence of one CPU/two Flex Bus links
+##### Table 67. Memory Decode rules in presence of one CPU/two Flex Bus links
 
 |   Left D0, F0 Mem_Capable | Left D0, F0 Mem_Size   |   Right D0, F0 Mem_ Capable | Right D0, F0 Mem_Size   | BIOS requirements                                                                                                |
 |---------------------------|------------------------|-----------------------------|-------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -3959,11 +4044,11 @@ Table 67. Memory Decode rules in presence of one CPU/two Flex Bus links
 
 #### 8.9.2 Multiple CPU Topology
 
+##### Figure 105. Two CPUs Connected to One Accelerator Via Two Flex Bus Links
 
+![A scaled-up system block diagram featuring two CPUs connected together via a UPI link. Each CPU utilizes a CXL Downstream Port to connect to dual corresponding CXL Upstream Ports inside a shared Accelerator, converging at a central Memory Controller.][figure_105]
 
-Figure 105. Two CPUs Connected to One Accelerator Via Two Flex Bus Links
-
-![Figure 105: Two CPUs Connected to One Accelerator Via Two Flex Bus Links][fig105]
+[figure_105]: figures/figure_105.png "Figure 105: Two CPUs Connected to One Accelerator Via Two Flex Bus Links"
 
 In this configuration, BIOS shall report two PCI root bridges to the Operating system, one that hosts the left Device 0, Function 0 and the second one that host the Device 0, function 0 on the right. Both Device 0, function 0 instances implement Flex Bus DVSEC and a Device Serial Number PCIe Extended Capability. A vendor ID and serial number match indicates that the two links are connected to a single accelerator and this enables BIOS to perform certain optimizations.
 
@@ -3971,7 +4056,7 @@ In some cases, the accelerator may choose to expose a single accelerator functio
 
 The BIOS maps the HDM into system address space using the following rules. Unlike the single CPU case, the BIOS shall never interleave the memory range at a cache line granularity across the two Flex Bus links.
 
-Table 68. Memory Decode rules in presence of two CPU/two Flex Bus links
+##### Table 68. Memory Decode rules in presence of two CPU/two Flex Bus links
 
 |   Left D0, F0 Mem_Capable | Left D0, F0 Mem_Size   |   Right D0, F0 Mem_ Capable | Right D0, F0 Mem_Size   | BIOS requirements                                                                                                |
 |---------------------------|------------------------|-----------------------------|-------------------------|------------------------------------------------------------------------------------------------------------------|
@@ -4030,7 +4115,7 @@ As such, a hierarchical power management architecture is proposed, where the dis
 
 Since native support of PCIe is also required, support of more simplified protocols is also possible. The following table highlights the required and recommended handling method for Idle transitions.
 
-Table 69. Runtime-Control - CXL Versus PCIe Control Methodologies
+##### Table 69. Runtime-Control - CXL Versus PCIe Control Methodologies
 
 | Case             | PCIe                                                                                                                                                         | CXL 1                                                                                                                                                                     |
 |------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -4054,7 +4139,9 @@ Managing latency requirements can be done in two methods.
 
 ##### Figure 106. PkgC Entry Flows
 
-![Figure 106: PkgC Entry Flows][fig106]
+![A sequence diagram demonstrating a CXL Device PkgC entry flow. Processor Power Management resolves LTR requirements by exchanging PMReq.Req and PMReq.Go messages, allowing the CXL Device to save context and transition into a deep idle L1 state independently of the processor.][figure_106]
+
+[figure_106]: figures/figure_106.png "Figure 106: PkgC Entry Flows"
 
 [Figure 106](#figure-106-pkgc-entry-flows) illustrates the PkgC entry flow. A device (or the processor) when wishing to enter a higher-latency Idle state, in which CPU is not active, will issue a PMReq() with LTR field marking the memory access tolerance of the entity.
 
@@ -4066,9 +4153,11 @@ In case of a transition into deep-idle states (client systems mostly), device wi
 
 #### 9.2.4 PkgC Exit Flows
 
-Figure 107. PkgC Exit Flows - Triggered by device access to system memory
+##### Figure 107. PkgC Exit Flows - Triggered by device access to system memory
 
-![Figure 107: PkgC Exit Flows - Triggered by device access to system memory][fig107]
+![A sequence diagram detailing a PkgC exit flow driven by a Local Wake originated at the CXL Device. The Link exits L1, device initiates exit sequence and requests low latency, forcing the Processor to bring shared resources into a low-latency mode for memory access.][figure_107]
+
+[figure_107]: figures/figure_107.png "Figure 107: PkgC Exit Flows - Triggered by device access to system memory"
 
 Figure 107 illustrates the PkgC exit flow initiated by the device. Link state during Idle may be in one of the select L1.x states, during Deep-Idle (as depicted here). In-band wake signaling will be used to transition the link back to L0. For more, see [Section 9.4](#94-compute-express-link-power-management), 'Compute Express Link Power Management' on page 186.
 
@@ -4076,9 +4165,11 @@ Once CXL is out of L1, signaling can be used to transfer the device into a Packa
 
 Processor will bring the shared resources out of Idle and acknowledge with a PMRsp() to indicate low-latency QoS has been achieved.
 
-Figure 108. PkgC Exit Flows - Execution Required by Processor
+##### Figure 108. PkgC Exit Flows - Execution Required by Processor
 
-![Figure 108: PkgC Exit Flows - Execution Required by Processor][fig108]
+![A sequence diagram illustrating a PkgC exit flow triggered by the Processor Power Management system requiring 0 latency access. The Processor forces the link out of L1 via CXL L1 exit to rouse the device out of idle states so resources become available.][figure_108]
+
+[figure_108]: figures/figure_108.png "Figure 108: PkgC Exit Flows - Execution Required by Processor"
 
 Figure 108 illustrates the PkgC exit flow initiated by the processor. In the case where the processor, or one of the peer devices connected to it requires to have coherent low latency access to system memory, the processor will initiate a Link L1 exit towards the device.
 
@@ -4096,23 +4187,21 @@ CXL Link Power Management supports Active Link State Power Management and L1 and
 
 The CXL PM Entry phase 1 involves protocol specific mechanisms to negotiate entry into PM state. Once the conditions to enter PM state as defined in the protocol section are satisfied, transaction layer is ready for Phase 2 entry and directs the ARB&amp;MUX to enter PM State.
 
+##### Figure 109. CXL Link PM Phase 1
 
+![An architectural data flow diagram named Phase 1. Large blue and yellow arrows indicate specific data pathway alignments routing through an ARB&MUX and crossing over the CXL PHY between the Rx and Tx ports corresponding to CXL.IO and CXL.$Mem boundaries.][figure_109]
 
-Figure 109. CXL Link PM Phase 1
-
-![Figure 109: CXL Link PM Phase 1][fig109]
+[figure_109]: figures/figure_109.png "Figure 109: CXL Link PM Phase 1"
 
 #### 9.4.2 Compute Express Link PM Entry Phase 2
 
-When directed by the transaction layer to enter PM, the Phase 2 entry process is initiated by ARB&amp;MUX. The second Phase of PM entry consists of bringing the ARB&amp;MUX interface of both sides of the Link into PM state. This entry into PM state is coordinated
+When directed by the transaction layer to enter PM, the Phase 2 entry process is initiated by ARB&amp;MUX. The second Phase of PM entry consists of bringing the ARB&amp;MUX interface of both sides of the Link into PM state. This entry into PM state is coordinated using ALMPs as described below. The Phase 2 entry is independently managed for each protocol. The Physical Layer continues to be in L0 until all the transaction layers enter Phase 2 state.
 
-using ALMPs as described below. The Phase 2 entry is independently managed for each protocol. The Physical Layer continues to be in L0 until all the transaction layers enter Phase 2 state.
+##### Figure 110. CXL Link PM Phase 2
 
+![An architectural diagram termed Phase 2. Green arrows map a shifted data routing arrangement passing through the ARB&MUX and linking the CXL PHY Tx and Rx paths across the physical link.][figure_110]
 
-
-Figure 110. CXL Link PM Phase 2
-
-![Figure 110: CXL Link PM Phase 2][fig110]
+[figure_110]: figures/figure_110.png "Figure 110: CXL Link PM Phase 2"
 
 Rules for Phase 2 entry into ASPM are as follows:
 
@@ -4120,7 +4209,6 @@ Rules for Phase 2 entry into ASPM are as follows:
 2. When directed by the transaction layer the ARB&amp;MUX on the Downstream Component must transmit ALMP request to enter Virtual LSM state PM.
 3. When the ARB&amp;MUX on the Upstream Component is directed to enter L1 and receives ALMP request from the Downstream Component, the Upstream Component responds with an ALMP response indicating acceptance of entry into L1 state. The transaction layer on the Upstream Component must also be notified that the ARB&amp;MUX port has accepted entry into PM state.
 4. The Upstream Component ARB&amp;MUX port does not respond with an ALMP response if not directed by protocol on the Upstream Component to enter PM.
-
 5. When the ARB&amp;MUX on the Downstream Component is directed to enter L1 and receives ALMP response from the Upstream Component, it notifies acceptance of entry into PM state to the transaction layer on the Downstream component.
 6. The Downstream Component ARB&amp;MUX port must wait for &lt;TBD&gt; amount of time for a response from the Upstream Component. If no response is received from the Upstream component then the Downstream Component is permitted to abort the PM entry or retry entry into PM again.
 7. L2 entry is an exception to rule number 6. Protocol must ensure that Upstream component is directed to enter L2 before setting up the conditions for the Downstream Component to request entry into L2 state. This ensures that L2 abort or L2 Retry conditions do not exist.
@@ -4130,17 +4218,17 @@ Rules for Phase 2 entry into ASPM are as follows:
 
 The third Phase is a conditional phase of PM entry and is executed only when all Protocol interfaces of ARB&amp;MUX have entered the same virtual PM state. The phase consists of bringing the Tx lanes to electrical Idle and is always initiated by the Downstream Component.
 
+##### Figure 111. CXL PM Phase 3
 
+![An architectural diagram representing Phase 3 data flow. Yellow arrows visually trace data logic shifting across the CXL PHY boundaries and routing through the ARB&MUX logic to designated functional blocks like CXL.IO, CXL.$Mem, and Intel AL.io.][figure_111]
 
-Figure 111. CXL PM Phase 3
+[figure_111]: figures/figure_111.png "Figure 111: CXL PM Phase 3"
 
-![Figure 111: CXL PM Phase 3][fig111]
+##### Figure 112. Electrical Idle
 
+![A signal diagram illustrating Upstream and Downstream components transitioning to an electrical idle state. A vertical dashed line indicates the time boundary where both transmission directions stop signaling.][figure_112]
 
-
-Figure 112. Electrical Idle
-
-![Figure 112: Electrical Idle][fig112]
+[figure_112]: figures/figure_112.png "Figure 112: Electrical Idle"
 
 #### 9.4.4 Compute Express Link Exit from ASPM L1
 
@@ -4170,9 +4258,11 @@ CXL.io Link Power Management is as defined in PCIe Express Base Specification wi
 
 - The first phase consists of completing the ASPM L1 negotiation rules as defined in the PCI Express Base Specification with the following notable exceptions for the rules in case of acceptance of ASPM L1 Entry. All rules upto the completion of the ASPM L1 handshake are maintained, however the process of bringing the Transmit Lanes into Electrical Idle state are divided into 2 additional phases described above. Phase 1 flow is described below.
 
-Figure 113. ASPM L1 Entry Phase 1
+##### Figure 113. ASPM L1 Entry Phase 1
 
-![Figure 113: ASPM L1 Entry Phase 1][fig113]
+![A precise sequence timeline showing an Upstream Component and Downstream Component exchanging Data Link Layer Packets (DLLPs) to negotiate an L1 state entry. It documents the accumulation of credits, blocking of TLPs, and repetitive PM_Active_State_Request_L1 DLLP transmissions down to acknowledgment.][figure_113]
+
+[figure_113]: figures/figure_113.png "Figure 113: ASPM L1 Entry Phase 1"
 
 #### 9.5.2 CXL.io ASPM Phase 2 Entry
 
@@ -4227,11 +4317,11 @@ As shown in Figure 114, CXL can simultaneously carry three protocols: CXL.io, CX
 
 Figure 114 below is an illustration of CXL and the focus areas for CXL RAS. Namely, Link &amp; protocol RAS, which applies to the Host-CXL communication mechanism and Device RAS which applies exclusively to the device itself. All errors are reflected to the OS via PCIe AER mechanisms as 'Correctable Internal Error' (CIE) or 'Uncorrectable Internal Error' (UIE). Errors may also be reflected to Platform SW if so configured.
 
+#### Figure 114. CXL Error Handling
 
+![A comprehensive topological map breaking error handling into two main domains. The upper domain circled in red represents 'Link & Protocol Error Handling' across the Root Complex, Home Agent, IO bridges, and CXL interconnects. The lower domain circled in red covers 'Device Error Handling' within the CXL Device encapsulating RCiEP, Coherency cache, and local Memory Controllers.][figure_114]
 
-Figure 114. CXL Error Handling
-
-![Figure 114: CXL Error Handling][fig114]
+[figure_114]: figures/figure_114.png "Figure 114: Title not found"
 
 Referring to Figure 114, the Host/Root Complex is located on the north side and contains all the usual error handling mechanisms such as MCA, PCIe AER, RCEC and other platform level error reporting and handling mechanisms. CXL.mem and CXL.cache errors encountered by the device are communicated to the CPU across CXL.io. to be logged in PCIe AER registers. The following sections will focus on the link layer and transaction layer error handling mechanisms as well as CXL device error handling.
 
@@ -4350,7 +4440,7 @@ Note: cards should not plan to use these "RSVD" pins.
 
 The figure below shows the standard x16 PCIe connector pin list for reference purpose.
 
-Figure 115. Standard x16 PCIe Connector Pin List - For Reference Purpose Only
+##### Figure 115. Standard x16 PCIe Connector Pin List - For Reference Purpose Only
 
 |          |                 | SideB                                                          |                       | SideA                                                      |
 |----------|-----------------|----------------------------------------------------------------|-----------------------|------------------------------------------------------------|
@@ -4462,8 +4552,6 @@ The x16 PCIe conn only supports up to 75W card. Auxiliary power connector will b
 
 For system with S3 power state support (e.g. Workstation platform), Flexbus slot is required to support up to 375mA on the '+3.3Aux' pin. This is to accommodate CXL cards with HDM. If a CXL card requires more than 375mA in S3 state, platform will needs to supply additional aux power to the Add-card (platform implementation dependent).
 
-
-
 ## 13.0 Performance Considerations
 
 Compute Express Link (CXL) provides a low-latency, high-bandwidth path for an accelerator to access the system. Performance on CXL is dependent on a variety of factors. The following table captures the key performance attributes of CXL.
@@ -4502,9 +4590,9 @@ Certain tests may also require the presence of a protocol analyzer to monitor fl
 
 #### Figure 116. Example Test Topology
 
+![A simple block diagram illustrating a Host Platform connected to a CXL Device, with an optional Logic/Protocol Analyzer tapping into their interconnecting link.][figure_116]
 
-
-![Figure 116: Example Test Topology][fig116]
+[figure_116]: figures/figure_116.png "Figure 116: Title not found"
 
 Each category of tests has certain device capability requirements in order to exercise the test patterns. The associated registers and programming is defined in this chapter as well.
 
@@ -4516,11 +4604,11 @@ Refer to [Section 14.11](#1411-device-capability-and-test-configuration-control)
 
 Standard practices of testing coherency rely on 'false sharing' of cache lines. Different agents in the system (cores, I/O etc.) are assigned one or more fixed byte locations within a shared set of cache lines. Each agent continuously executes an assigned Algorithm independently. Since multiple agents are sharing the same cache line, stressful conflict scenarios can be exercised. Figure 117 illustrates the concept of false sharing. This can be used for CXL.io (Load/Store semantics) or CXL.cache (caching semantics) or (CXL.cache + CXL.mem) devices (Type 2 devices).
 
+##### Figure 117. Representation of False Sharing Between Cores (on Host) and CXL Devices
 
+![A memory diagram illustrating data packing across Cache Lines (up to 64B in 1 cache line). Core0, Core1, and Core2 access colored blocks while CXL.IO, CXL.cache, and unified CXL.cache+CXL.mem access the specific corresponding chunks.][figure_117]
 
-Figure 117. Representation of False Sharing Between Cores (on Host) and CXL Devices
-
-![Figure 117: Representation of False Sharing Between Cores (on Host) and CXL Devices][fig117]
+[figure_117]: figures/figure_117.png "Figure 117: Representation of False Sharing Between Cores (on Host) and CXL Devices"
 
 This document outlines three Algorithms that enable stressing the system with false sharing tests. In addition, this document specifies the required device capabilities to execute, verify and debug runs for the Algorithms. All of the Algorithms are applicable for CXL.io and CXL.cache (protocols that originate requests to the host). Devices are permitted to be self-checking. Self-checking devices must have a way to disable the checking Algorithm independent of executing the Algorithm. All devices must support the non-self-checking flow in the Algorithms outlined below.
 
@@ -4534,31 +4622,31 @@ Different sets of cache lines are defined by different base addresses (so a devi
 
 this Algorithm as implemented on the device. Address Z is the write back address where system software can poll to verify the expected pattern associated with this device, in cases where self-checking on the device is disabled. There is 1:1 correspondence between X and Z. It is the responsibility of the device to ensure that the writes in the execute phase are globally observable before beginning the verify phase. Depending on the write semantics used, this may imply additional fencing mechanism on the device to make sure the writes are visible globally before the verify phase can begin. When beginning a new set iteration, devices must also give an option to use 'P' again for the new set, or continue incrementing 'P' for the next set. The select is programmed by software in 'PatternParameter' field described in the register section.
 
+##### Figure 118. Flow Chart of Algorithm 1a
 
+![A flowchart detailing a test loop consisting of an Execute Phase and a Verify Phase. It loops to write specific data patterns across address offsets, checks if the mode is 'self-checking', and then reads the addresses to verify patterns or write them back.][figure_118]
 
-Figure 118.  of Algorithm 1a
-
-![Figure 118:  of Algorithm 1a][fig118]
+[figure_118]: figures/figure_118.png "Figure 118: Flow Chart of Algorithm 1a"
 
 #### 14.3.4 Algorithm 1b: Multiple Write Streaming with Bogus Writes
 
 This Algorithm is a variation on Algorithm 1a, except that before writing the expected pattern to an address, the device does 'J' iterations of writing a bogus pattern 'B' to that address. Figure 119 illustrates this Algorithm. In this case, if ever a pattern 'B' is seen in the cache line during the Verify phase, it is a Fail condition. The bogus writes help give a longer duration of conflicts in the system. It is the responsibility of the device to ensure that the writes in the execute phase are globally observable before beginning the verify phase. Depending on the write semantics used, this may imply additional fencing mechanism on the device to make sure the writes are visible globally before the verify phase can begin. When beginning a new set iteration, devices must also give an option to use 'P' again for the new set, or continue incrementing 'P' for the next set. The select is programmed by software in 'PatternParameter' field described in the register section.
 
+##### Figure 119. Flow Chart of Algorithm 1b
 
+![A test loop flowchart conceptually identical to the previous one, but the Execute Phase explicitly adds J iterations of background 'write B to X' traffic surrounding the core pattern writes.][figure_119]
 
-Figure 119.  of Algorithm 1b
-
-![Figure 119:  of Algorithm 1b][fig119]
+[figure_119]: figures/figure_119.png "Figure 119: Flow Chart of Algorithm 1b"
 
 #### 14.3.5 Algorithm 2: Producer Consumer Test
 
 This Algorithm aims to test the scenario where a Device is a producer and the CPU is a consumer. Device simply executes a pre-determined Algorithm of writing known patterns to a data location followed by a flag update write. Threads on the CPU poll the flag followed by reading the data patterns, followed by polling the flag again. This is a simple way of making sure the required ordering rules of producer consumer workloads are being followed through the stack. Device only participates in the execute phase of this Algorithm. Figure 120 illustrates the device execute phase. The Verify phase is run on the CPU, software reads addresses in the following order [F, X, (X+Y)…(X+N*Y), F]. Knowing the value of the flag at two ends, the checker knows the range in which [X, (X+Y)…(X+N*Y)] have to be in. For example, if P=0, the first read of F returns a value of 3 and the next read of F returns a value of 4, then checker knows that all intermediate values have to be either 3 or 4. Moreover, if the device is using strongly ordered semantics, then the checker should never see a transition of values from 3 to 4 (implying monotonically decreasing values for the non-flag addresses). If using CXL.cache protocol, device must ensure global observability of previous 'data' writes before updating the flag. When using strongly ordered semantics, each update must be globally visible before the next one. Depending on the flow used for dirty evicts, this can be implementation specific. It is the responsibility of the device to ensure that the writes in the execute phase are globally observable before updating the flag 'F'. The 'PatternParameter' field is not relevant for this Algorithm.
 
+##### Figure 120. Execute Phase for Algorithm 2
 
+![A simplified test execution flowchart looping through write patterns to sequential addresses spanning X, X+Y, etc. It demonstrates a basic Execute Phase iterating via predetermined offsets.][figure_120]
 
-Figure 120. Execute Phase for Algorithm 2
-
-![Figure 120: Execute Phase for Algorithm 2][fig120]
+[figure_120]: figures/figure_120.png "Figure 120: Execute Phase for Algorithm 2"
 
 #### 14.3.6 Test Descriptions
 
@@ -5705,7 +5793,7 @@ Certain Device/Host capabilities of error injection are required to enable the R
 
 The following register describes the required functionalities.
 
-Table 72. Register 1: CXL.cache/CXL.mem LinkLayerErrorInjection
+#### Table 72. Register 1: CXL.cache/CXL.mem LinkLayerErrorInjection
 
 |   Bit | Attribute   | Description                                                                                                                                                                                                                                                                                                                                         |
 |-------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -5719,7 +5807,7 @@ Table 72. Register 1: CXL.cache/CXL.mem LinkLayerErrorInjection
 | 9:8   | RWL   | CacheMemCRCInjectionCount : Software writes to these bits to program the number of CRC injections. This field must be programmed by software before OR at the same time as CacheMemCRCInjection field. The number of flits where CRC bits are flipped is given as follows: 2'b00 - Disable. No CRC errors are injected 2'b01 - CRC injection is only for 1 flit. CacheMemCRCInjectionBusy bit is cleared after 1 injection. 2'b10 - CRC injection is for 2 flits in succession. CacheMemCRCInjectionBusy bit is cleared after 2 injections. 2'b11 - CRC injection is for 3 flits in succession. CacheMemCRCInjectionBusy bit is cleared after 3 injections. This field is required if any of CXL.cache or CXL.mem protocols are supported. |
 | 10    | RO-V  | CacheMemCRCInjectionBusy : Hardware loads 1'b1 to this bit when the Start bit is written. Hardware must clear this bit to indicate that it has indeed finished CRC injections. Software is permitted to poll on this bit to find out when hardware has finished CRC injection. This bit is required if any of CXL.cache or CXL.mem protocols are supported.                                                                                                                                                                                                                                                                                                                                                                                |
 
-Table 73. Register 2: CXL.io LinkLayer Error Injection
+#### Table 73. Register 2: CXL.io LinkLayer Error Injection
 |   Bit | Attribute   | Description                                                                                                                                                                                                                                                                                                                                         |
 |-------|-------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     0 | RWL         | IOPoisonInjectionStart : Software writes 0x1 to this bit to trigger a single poison injection on a CXL.io message in the Tx direction. Hardware must override the poison field in the data header slot of the corresponding message.                                                                        |
@@ -5727,7 +5815,7 @@ Table 73. Register 2: CXL.io LinkLayer Error Injection
 |     2 | RWL         | FlowControErrorInjection: Software writes 0x1 to this bit to trigger a Flow Control error on CXL.io only. Hardware must override the Flow Control DLLP.                                                                                                                                                     |
 |     3 | RO-V        | FlowControlInjectionBusy: Hardware loads 1'b1 to this bit when the Start bit is written. Hardware must clear this bit to indicate that it has indeed finished Flow Control error injections. Software is permitted to poll on this bit to find out when hardware has finished Flow Control error injection. |
 
-Table 74. Register 3: Flex Bus LogPHY Error injections
+#### Table 74. Register 3: Flex Bus LogPHY Error injections
 
 |   Bit | Attribute   | Description                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |-------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -6083,7 +6171,9 @@ Fail criteria:
 
 ##### Figure 121. PCIe DVSEC for Test Capability:
 
-![Figure 121: PCIe DVSEC for Test Capability:][fig121]
+![A DVSEC mapping table designated for CXL Test. It illustrates capability, configuration, and lock registers spanning byte offsets 00h through 18h.][figure_121]
+
+[figure_121]: figures/figure_121.png "Figure 121: PCIe DVSEC for Test Capability:"
 
 To advertise Test capabilities, the standard DVSEC register fields should be set as below:
 
@@ -6197,7 +6287,7 @@ This section lays out the configuration registers required in the application la
 | 3     | RW          | PatternParameter : If this field is programmed to 1'b1, device hardware must continue to use the incremented value of patterns (P+N+1) as the base pattern of the next set iteration. If this field is programmed to 1'b0, device hardware must use the original pattern 'P' for every new set iteration.                                                                                            |
 | 63:4  | N/A         | Reserved                                                                                                                                                                                                                                                                                                                                                                                             |
 
-Table 87. Register 7: AlgorithmConfiguration (Offset 30h)
+##### Table 87. Register 7: AlgorithmConfiguration (Offset 30h)
 
 | Bit   | Attribute   | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |-------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -6215,7 +6305,7 @@ Table 87. Register 7: AlgorithmConfiguration (Offset 30h)
 | 46:44 | RW    | VerifyReadSemanticsCache : Read opcodes used when device is in Verify phase. 3'b000 : RdCurr 3'b001 : RdShared 3'b010 : RdOwn 3'b100 : RdAny All other encodings are reserved, and should not start execute/verify loops if programmed.                                                                                                                                                                                                                  |
 | 63:47 | N/A   | Reserved                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
-Table 88. Register 8: DeviceErrorInjection (Offset 38h)
+##### Table 88. Register 8: DeviceErrorInjection (Offset 38h)
 
 | Bit   | Attribute   | Description                                                                                                                                                                                                                                                                                 |
 |-------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -6240,14 +6330,14 @@ A device that supports self-checking must include an error status and header log
 | 31:0  | RW          | ExpectedPattern : Expected data pattern as per device hardware. |
 | 63:32 | RW          | ObservedPattern : Observed data pattern as per device hardware. |
 
-Table 90. Register 10: ErrorLog2 (Offset 48h)
+###### Table 90. Register 10: ErrorLog2 (Offset 48h)
 
 | Bit   | Attribute   | Description                                                     |
 |-------|-------------|-----------------------------------------------------------------|
 | 31:0  | RW          | ExpectedPattern : Expected data pattern as per device hardware. |
 | 63:32 | RW          | ObservedPattern : Observed data pattern as per device hardware. |
 
-Table 91. Register 11: ErrorLog3 (Offset 50h)
+###### Table 91. Register 11: ErrorLog3 (Offset 50h)
 
 | Bit   | Attribute   | Description                                                                                |
 |-------|-------------|--------------------------------------------------------------------------------------------|
@@ -6359,9 +6449,11 @@ For problems whose datasets exceed the size of device attached memory, the memor
     - Single page table entry per page in data set - no page table manipulation as pages are cycled through accelerator memory
     - Copies of data can be created under driver and/or hardware control with no OS intervention
 
-Figure 122. Profile D - Giant Cache Model
+#### Figure 122. Profile D - Giant Cache Model
 
-![Figure 122: Profile D - Giant Cache Model][fig122]
+![An architectural block diagram representing memory scale and coherence paths. An Accelerator uses an internal SRAM Cache and a Giant Cache, exchanging data via coherence protocols through the CPU+IO block's Home Agent (HA), communicating down to CPU Local Mem.][figure_122]
+
+[figure_122]: figures/figure_122.png "Figure 122: Title not found"
 
 ## Critical issues with a Giant Cache:
 

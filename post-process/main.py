@@ -5,11 +5,15 @@ import argparse
 import hashlib
 
 # Import rule modules
+import remove_evaluation_copy
 import merge_split_tables
 import format_table_whitespace
+import format_table_newlines
+import format_table_dashes
 import format_figure_table_headings
 import format_numbered_headings
 import format_implementation_notes
+import format_command_sections
 import format_test_elements
 import fix_paragraph_page_splits
 import rename_figure_nomenclature
@@ -22,11 +26,15 @@ import format_contents_table
 
 # Define execution order
 RULES_ORDER = [
+    ("remove_evaluation_copy", remove_evaluation_copy, "Remove Evaluation Copy Watermarks"),
     ("merge_split_tables", merge_split_tables, "Merge Split Tables"),
     ("format_table_whitespace", format_table_whitespace, "Format Table Cell Whitespace"),
+    ("format_table_newlines", format_table_newlines, "Format Broken Table Newlines"),
+    ("format_table_dashes", format_table_dashes, "Reduce Table Separator Dashes to 3"),
     ("format_figure_table_headings", format_figure_table_headings, "Format Figure and Table Headings"),
     ("format_numbered_headings", format_numbered_headings, "Format Numbered Headings"),
     ("format_implementation_notes", format_implementation_notes, "Format Implementation Notes"),
+    ("format_command_sections", format_command_sections, "Format Command Return Codes and Effects"),
     ("format_test_elements", format_test_elements, "Format Test Elements (Fail/Pass/Steps/Prereqs)"),
     ("fix_paragraph_page_splits", fix_paragraph_page_splits, "Fix Paragraph Page Split Newlines"),
     ("rename_figure_nomenclature", rename_figure_nomenclature, "Rename Figure Files and References"),
@@ -65,9 +73,10 @@ def validate_integrity(before_content, after_content):
     Validates before-and-after document integrity to verify no untoward
     corruption (such as losing significant content or breaking block structures).
     """
-    # 1. Content size sanity check (must not lose more than 2% of text size in paragraph joining/merges)
-    before_non_ws = len("".join(before_content.split()))
-    after_non_ws = len("".join(after_content.split()))
+    # 1. Content size sanity check (must not lose more than 5% of text size in paragraph joining/merges)
+    # Note: We completely strip dashes "-" from the non-whitespace strings to prevent false positives from dash reduction rules.
+    before_non_ws = len("".join(before_content.split()).replace("-", ""))
+    after_non_ws = len("".join(after_content.split()).replace("-", ""))
     if after_non_ws < before_non_ws * 0.95:
         return False, f"Integrity check failed: Significant content loss detected (Before: {before_non_ws} non-ws chars, After: {after_non_ws} non-ws chars)"
 

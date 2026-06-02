@@ -77,6 +77,24 @@ def process_file(file_path, dry_run=False):
                 "date": date
             })
 
+    # Format dashed items in descriptions
+    for r in combined_rows:
+        desc = r["description"]
+        def dashed_repl(match):
+            full_match = match.group(0)
+            start_idx = match.start()
+            preceding = desc[:start_idx].rstrip()
+            following = desc[start_idx + len(full_match):].lstrip()
+            
+            # Skip if it is a link state range like L1.1 - L1.4
+            if re.search(r'L\d+(\.\d+)?$', preceding) and re.match(r'^L\d+(\.\d+)?\b', following):
+                return full_match
+                
+            if preceding.endswith("<br/>") or preceding.endswith("<br />") or preceding.endswith("<br>") or preceding == "":
+                return full_match
+            return "<br/>" + full_match.lstrip()
+        r["description"] = re.sub(r'\s*-\s+', dashed_repl, desc)
+
     # Construct the single new table
     new_table_lines = [
         "| Revision | Description | Date |",

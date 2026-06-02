@@ -12,8 +12,10 @@ dependencies = [
 
 # Prevent opencv-python (non-headless) from being installed — it conflicts
 # with opencv-python-headless and breaks cv2.setNumThreads
-[tool.uv.override-dependencies]
-opencv-python = []
+[tool.uv]
+override-dependencies = [
+    "opencv-python"
+]
 
 [project.optional-dependencies]
 easyocr = [
